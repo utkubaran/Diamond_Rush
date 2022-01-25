@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: 2378723648339509416}
   - component: {fileID: 2378723648339509419}
   - component: {fileID: 2378723648339509418}
-  - component: {fileID: 2378723648339509417}
+  - component: {fileID: 134352067919786074}
   m_Layer: 0
   m_Name: Rotating Blade Obstacle
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb6945fc88de3c43a78b817cca9b934, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2378723648339509417
+--- !u!114 &134352067919786074
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2378723648339509414}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4d60321afbc0f7458cbd0f58dfd9dfc, type: 3}
+  m_Script: {fileID: 11500000, guid: eb6ed20797a84ac4d858680bcc252cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 150

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObstacleRotationController : MonoBehaviour
+public class RotatingBladeController : MonoBehaviour
 {
     [SerializeField]
     private float rotationSpeed;
@@ -16,6 +16,6 @@ public class ObstacleRotationController : MonoBehaviour
 
     void Update()
     {
-        _transform.Rotate(0f, rotationSpeed * Time.deltaTime, 0f);
+        _transform.Rotate(0f, 0f, rotationSpeed * Time.deltaTime);
     }
 }

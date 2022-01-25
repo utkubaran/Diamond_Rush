@@ -8,9 +8,6 @@ public class PlayerStackController : MonoBehaviour
     private CharacterDataSO playerData;
 
     [SerializeField]
-    private int stackAmount;
-
-    [SerializeField]
     private int maxStackLimit;
 
     [SerializeField]
@@ -26,10 +23,10 @@ public class PlayerStackController : MonoBehaviour
 
     private List<GameObject> stacks;
 
+    private int stackAmount;
+
     private float stackPerct;
     public float StackPerct { get { return stackPerct; } }
-
-    // private int maxStackLimit;
 
     private void OnEnable()
     {
@@ -76,7 +73,8 @@ public class PlayerStackController : MonoBehaviour
         {
             GameObject obj = objectPooler.GetPooledObject();
             stacks.Add(obj);
-            animationController.BlendValue = (float)stackAmount / (float)maxStackLimit;
+            stackPerct = (float)stackAmount / (float)maxStackLimit;
+            animationController.BlendValue = stackPerct;
         }
     }
 
@@ -90,7 +88,8 @@ public class PlayerStackController : MonoBehaviour
         {
             stacks[i].gameObject.SetActive(false);
             stacks.RemoveAt(i);
-            animationController.BlendValue = (float)stackAmount / (float)maxStackLimit;
+            stackPerct = (float)stackAmount / (float)maxStackLimit;
+            animationController.BlendValue = stackPerct;
         }
     }
 }

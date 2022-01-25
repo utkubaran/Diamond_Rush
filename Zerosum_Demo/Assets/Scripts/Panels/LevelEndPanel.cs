@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class LevelEndPanel : MonoBehaviour
 {
     [SerializeField]
-    private Text collectedDiamondText;
+    private TextMeshProUGUI collectedDiamondText;
 
     private int collectedDiamonds;
 
@@ -29,6 +30,6 @@ public class LevelEndPanel : MonoBehaviour
 
     private void NextLevelButton()
     {
-        
+        EventManager.OnNextLevelButtonPressed?.Invoke();
     }
 }

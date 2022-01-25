@@ -2,19 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class InGamePanel : MonoBehaviour
 {
     [SerializeField]
-    private Text levelText;
+    private PlayerStackController playerStackController;
+
+    [SerializeField]
+    private TextMeshProUGUI levelText;
 
     [SerializeField]
     private Text diamondText;
 
     [SerializeField]
-    private Text stackText;
+    private Slider stackBar;
 
-    private int currentSceneIndex, stackCount, diamondCount;
+    private int currentSceneIndex, diamondCount;
 
     private void OnEnable()
     {
@@ -35,7 +39,7 @@ public class InGamePanel : MonoBehaviour
         currentSceneIndex = LevelManager.instance.CurrentSceneIndex + 1;
         levelText.text = "Level " + currentSceneIndex;
         diamondText.text = diamondCount.ToString();
-        stackText.text = stackCount.ToString();
+        stackBar.value = playerStackController.StackPerct;
     }
 
     private void UpdateCurrencyAmount()
@@ -46,13 +50,13 @@ public class InGamePanel : MonoBehaviour
 
     private void IncreaseStackAmount()
     {
-        stackCount++;
-        stackText.text = stackCount.ToString();
+        Debug.Log(playerStackController.StackPerct);
+        stackBar.value = playerStackController.StackPerct;
     }
 
     private void DecreaseStackAmount()
     {
-        stackCount--;
-        stackText.text = stackCount.ToString();
+        Debug.Log(playerStackController.StackPerct);
+        stackBar.value = playerStackController.StackPerct;
     }
 }
