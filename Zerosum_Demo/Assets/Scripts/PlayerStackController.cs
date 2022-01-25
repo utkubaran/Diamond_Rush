@@ -8,24 +8,26 @@ public class PlayerStackController : MonoBehaviour
     private CharacterDataSO playerData;
 
     [SerializeField]
-    private float stackSize;
-
-    [SerializeField]
-    private GameObject stackPrefab;
-
-    [SerializeField]
-    private int stackCount;             // todo remove
+    private int stackCount;
 
     [SerializeField]
     private int maxStackLimit;
 
     [SerializeField]
-    private Transform stackBag;
+    private Transform stackBag1;
+
+    [SerializeField]
+    private Transform stackBag2;
 
     [SerializeField]
     private ObjectPooler objectPooler;
 
+    private PlayerAnimationController animationController;
+
     private List<GameObject> stacks;
+
+    private float stackPerct;
+    public float StackPerct { get { return stackPerct; } }
 
     // private int maxStackLimit;
 
@@ -37,6 +39,11 @@ public class PlayerStackController : MonoBehaviour
     private void OnDisable()
     {
         EventManager.OnStackCollected.RemoveListener(IncreaseStack);
+    }
+
+    private void Awake()
+    {
+        animationController = GetComponent<PlayerAnimationController>();
     }
 
     void Start()
@@ -69,9 +76,7 @@ public class PlayerStackController : MonoBehaviour
         {
             GameObject obj = objectPooler.GetPooledObject();
             stacks.Add(obj);
-            obj.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + stackSize * i);
-            // obj.GetComponent<IPooledObject>().OnObjectSpawn();
-            obj.transform.parent = stackBag;
+            animationController.BlendValue = (float)stackCount / (float)maxStackLimit;
         }
     }
 
@@ -85,6 +90,7 @@ public class PlayerStackController : MonoBehaviour
         {
             stacks[i].gameObject.SetActive(false);
             stacks.RemoveAt(i);
+            animationController.BlendValue = (float)stackCount / (float)maxStackLimit;
         }
     }
 }

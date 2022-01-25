@@ -25,24 +25,14 @@ public class ObjectPooler : MonoBehaviour
         for (int i = 0; i < pooledAmount; i++)
         {
             GameObject obj = Instantiate(pooledObject);
-            obj.transform.parent = transform;
+            // obj.transform.parent = transform;
             obj.SetActive(false);
             pooledObjects.Add(obj);
-
-            if ( i == 0)
-            {
-                pooledObjects[i].GetComponent<Stack>().ReferencePos = transform;
-            }
-            else
-            {
-                pooledObjects[i].GetComponent<Stack>().ReferencePos = pooledObjects[i - 1].transform;
-            }
-            
-            pooledObjects[i].GetComponent<Stack>().Index = i;
 
             if (poolParent == null) return;
 
             obj.transform.parent = poolParent;
+            obj.transform.position = new Vector3(poolParent.position.x, poolParent.position.y + 0.15f * i, poolParent.position.z);
         }
     }
 

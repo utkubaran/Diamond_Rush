@@ -12,6 +12,9 @@ public class PlayerAnimationController : MonoBehaviour
     private PlayerState currentState;
     public PlayerState CurrentState { set { currentState = value; } }
 
+    private float blendValue;
+    public float BlendValue { set { blendValue = value; } }
+
     private void OnEnable()
     {
         EventManager.OnLevelStart.AddListener( () => currentState = PlayerState.Running );
@@ -34,7 +37,9 @@ public class PlayerAnimationController : MonoBehaviour
 
     void Update()
     {
+        animator.SetFloat("Blend", blendValue);
         // ChangeAnimationState();
+
     }
 
     private void ChangeAnimation()
