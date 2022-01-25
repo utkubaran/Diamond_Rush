@@ -55,15 +55,13 @@ public class PlayerStackController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            IncreaseStack();
+            IncreaseStack();            // todo remove
         }
 
         if (Input.GetKeyDown(KeyCode.A))
         {
-            DecreaseStack();
+            DecreaseStack();            // todo remove
         }
-
-        Debug.Log(stacks.Count);
     }
 
     private void IncreaseStack()
