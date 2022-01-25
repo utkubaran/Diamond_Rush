@@ -1,0 +1,72 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ObjectPooler : MonoBehaviour
+{
+    [SerializeField]
+    public GameObject pooledObject;
+    
+    [SerializeField]
+    private int pooledAmount;
+
+    [SerializeField]
+    private Transform poolParent;
+
+    private List<GameObject> pooledObjects = new List<GameObject> ();
+
+    void Start()
+    {
+        CreateObjectPool();
+    }
+
+    private void CreateObjectPool()
+    {
+        for (int i = 0; i < pooledAmount; i++)
+        {
+            GameObject obj = Instantiate(pooledObject);
+            obj.transform.parent = transform;
+            obj.SetActive(false);
+            pooledObjects.Add(obj);
+
+            if ( i == 0)
+            {
+                pooledObjects[i].GetComponent<Stack>().ReferencePos = transform;
+            }
+            else
+            {
+                pooledObjects[i].GetComponent<Stack>().ReferencePos = pooledObjects[i - 1].transform;
+            }
+            
+            pooledObjects[i].GetComponent<Stack>().Index = i;
+
+            if (poolParent == null) return;
+
+            obj.transform.parent = poolParent;
+        }
+    }
+
+    public GameObject GetPooledObject()
+    {
+        for (int i = 0; i < pooledObjects.Count; i++)
+        {
+            if (!pooledObjects[i].activeInHierarchy)
+            {
+                pooledObjects[i].SetActive(true);
+                return pooledObjects[i];
+            }
+        }
+
+        return null;
+    }
+
+    public void SendObjectToPool()
+    {
+        for (int i = 0; i < pooledObjects.Count; i++)
+        {
+            if (pooledObjects[i].activeInHierarchy) return;
+
+            pooledObjects[i].SetActive(false);
+        }
+    }
+}
