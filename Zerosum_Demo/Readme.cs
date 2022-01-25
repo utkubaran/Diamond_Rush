@@ -34,9 +34,9 @@
  *      This screen will appear while we are controlling the character.
  *
  *      It includes ;
- *      -Current Level Number
- *      -Currency Amount
- *      -Stack Amount
+ *      ------Current Level Number
+ *      ------Currency Amount
+ *      ------Stack Amount
  *
  *      Stack Amount :
  *      This must be attached to and move with the character as smooth as possible.
@@ -45,9 +45,9 @@
  *      This screen will appear after we reached our finish line.
  *
  *      It includes ;
- *      -Level Completed Text
- *      -Collected Currency Amount
- *      -Next Level Button
+ *      ------Level Completed Text
+ *      ------Collected Currency Amount
+ *      ------Next Level Button
  *
  * !!UI elements must be responsive and works well with different resolutions.
  *      
