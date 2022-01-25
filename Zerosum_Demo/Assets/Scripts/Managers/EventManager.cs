@@ -25,5 +25,15 @@ public static class EventManager
     public static UnityEvent OnTapToplayButtonPressed = new UnityEvent();
     public static UnityEvent OnNextLevelButtonPressed = new UnityEvent();
     #endregion
+
+    #region Upgrade Events
+    public static UnityEvent OnStackLimitUpgrade = new UnityEvent();
+    #endregion
+
+    #region Save&Load Events
+    public static SaveLoadEvent OnBroadcast = new SaveLoadEvent();
+    #endregion
 }
+
+public class SaveLoadEvent : UnityEvent<int, int, int> { }
 

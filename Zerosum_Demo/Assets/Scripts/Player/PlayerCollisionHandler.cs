@@ -17,6 +17,7 @@ public class PlayerCollisionHandler : MonoBehaviour
         }
         else if (isDiamond)
         {
+            Debug.Log("workssssssss!");
             EventManager.OnDiamondCollected?.Invoke();
             other.GetComponent<ICollectable>().OnCollected();
         }

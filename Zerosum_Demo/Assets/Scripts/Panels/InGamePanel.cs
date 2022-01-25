@@ -13,7 +13,7 @@ public class InGamePanel : MonoBehaviour
     private TextMeshProUGUI levelText;
 
     [SerializeField]
-    private Text diamondText;
+    private TextMeshProUGUI diamondText;
 
     [SerializeField]
     private Slider stackBar;
@@ -37,13 +37,15 @@ public class InGamePanel : MonoBehaviour
     void Start()
     {
         currentSceneIndex = LevelManager.instance.CurrentSceneIndex + 1;
-        levelText.text = "Level " + currentSceneIndex;
+        levelText.text = "LEVEL " + currentSceneIndex;
         diamondText.text = diamondCount.ToString();
         stackBar.value = playerStackController.StackPerct;
+        diamondCount = DataManager.instace.playerData.currentDiamonds;
     }
 
     private void UpdateCurrencyAmount()
     {
+        Debug.Log("works!");
         diamondCount++;
         diamondText.text = diamondCount.ToString();
     }

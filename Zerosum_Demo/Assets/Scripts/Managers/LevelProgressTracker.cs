@@ -27,7 +27,16 @@ public class LevelProgressTracker : MonoBehaviour
 
     void Start()
     {
-        collectedDiamonds = 0;
+        collectedDiamonds = DataManager.instace.playerData.currentDiamonds;
+        // collectedDiamonds = 0;
         collectedCoins = 0;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            EventManager.OnLevelFinish?.Invoke();
+        }
     }
 }

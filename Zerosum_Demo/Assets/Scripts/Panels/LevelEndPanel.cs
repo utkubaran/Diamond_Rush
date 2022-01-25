@@ -28,7 +28,7 @@ public class LevelEndPanel : MonoBehaviour
         collectedDiamonds = 0;
     }
 
-    private void NextLevelButton()
+    public void NextLevelButton()
     {
         EventManager.OnNextLevelButtonPressed?.Invoke();
     }
