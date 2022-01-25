@@ -8,7 +8,7 @@ public class PlayerStackController : MonoBehaviour
     private CharacterDataSO playerData;
 
     [SerializeField]
-    private int stackCount;
+    private int stackAmount;
 
     [SerializeField]
     private int maxStackLimit;
@@ -33,12 +33,14 @@ public class PlayerStackController : MonoBehaviour
 
     private void OnEnable()
     {
-        EventManager.OnStackCollected.AddListener(IncreaseStack);
+        EventManager.OnCoinCollected.AddListener(IncreaseStack);
+        EventManager.OnHitObstacle.AddListener(DecreaseStack);
     }
 
     private void OnDisable()
     {
-        EventManager.OnStackCollected.RemoveListener(IncreaseStack);
+        EventManager.OnCoinCollected.RemoveListener(IncreaseStack);
+        EventManager.OnHitObstacle.RemoveListener(DecreaseStack);
     }
 
     private void Awake()
@@ -66,29 +68,29 @@ public class PlayerStackController : MonoBehaviour
 
     private void IncreaseStack()
     {
-        if (stackCount >= maxStackLimit) return;
+        if (stackAmount >= maxStackLimit) return;
 
-        stackCount++;
+        stackAmount++;
 
-        for (int i = stacks.Count; i < stackCount; i++)
+        for (int i = stacks.Count; i < stackAmount; i++)
         {
             GameObject obj = objectPooler.GetPooledObject();
             stacks.Add(obj);
-            animationController.BlendValue = (float)stackCount / (float)maxStackLimit;
+            animationController.BlendValue = (float)stackAmount / (float)maxStackLimit;
         }
     }
 
     private void DecreaseStack()
     {
-        if(stackCount <= 0) return;
+        if(stackAmount <= 0) return;
 
-        stackCount--;
+        stackAmount--;
 
-        for (int i = stacks.Count - 1; i >= stackCount; i--)
+        for (int i = stacks.Count - 1; i >= stackAmount; i--)
         {
             stacks[i].gameObject.SetActive(false);
             stacks.RemoveAt(i);
-            animationController.BlendValue = (float)stackCount / (float)maxStackLimit;
+            animationController.BlendValue = (float)stackAmount / (float)maxStackLimit;
         }
     }
 }

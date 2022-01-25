@@ -29,14 +29,12 @@ public class PlayerMovementController : MonoBehaviour
     private void OnEnable()
     {
         EventManager.OnLevelStart.AddListener( () => isPlaying = true );
-        EventManager.OnLevelFail.AddListener( () => isPlaying = false );
         EventManager.OnLevelFinish.AddListener( () => isPlaying = false );
     }
 
     private void OnDisable()
     {
         EventManager.OnLevelStart.RemoveListener( () => isPlaying = true );
-        EventManager.OnLevelFail.RemoveListener( () => isPlaying = false );
         EventManager.OnLevelFinish.RemoveListener( () => isPlaying = false );
     }
 
@@ -44,11 +42,6 @@ public class PlayerMovementController : MonoBehaviour
     {
         inputController = GetComponent<PlayerInputController>();
         _transform = this.transform;
-    }
-
-    private void Start()
-    {
-        isPlaying = true;       // todo remove after events are enabled
     }
 
     void Update()
@@ -65,8 +58,6 @@ public class PlayerMovementController : MonoBehaviour
         if (movementDirection.magnitude >= movementThreshold)
         {
             horizontalPos = Mathf.Clamp(movementDirection.x * swerveSpeed * Time.deltaTime + _transform.position.x, -xBorder, +xBorder);
-            // verticalPos = movementSpeed * Time.deltaTime + _transform.position.z;
-            // _transform.position = new Vector3(horizontalPos, _transform.position.y, verticalPos);
         }
 
         verticalPos = movementSpeed * Time.deltaTime + _transform.position.z;

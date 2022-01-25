@@ -21,9 +21,9 @@
  *      This screen will appear before starting a new level.
  * 
  *      It includes ;
- *      -Game Title (You can choose your own)
- *      -Tap To Play Button and Text
- *      -Current Level Number
+ *      -----Game Title (You can choose your own)
+ *      -----Tap To Play Button and Text
+ *      -----Current Level Number
  *      -Currency Amount
  *      -Start Stack Upgrade Button & Price
  *
