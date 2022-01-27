@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCollisionHandler : MonoBehaviour
+public class StackCoin : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
@@ -14,6 +14,7 @@ public class PlayerCollisionHandler : MonoBehaviour
         {
             EventManager.OnCoinCollected?.Invoke();
             other.GetComponent<ICollectable>().OnCollected();
+            Debug.Log("I worked!");
         }
         else if (isDiamond)
         {

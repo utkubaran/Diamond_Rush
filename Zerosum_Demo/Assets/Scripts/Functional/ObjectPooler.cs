@@ -11,7 +11,13 @@ public class ObjectPooler : MonoBehaviour
     private int pooledAmount;
 
     [SerializeField]
+    private Transform stackPos;
+
+    [SerializeField]
     private Transform poolParent;
+
+    [SerializeField]
+    private float coinSize;
 
     private List<GameObject> pooledObjects = new List<GameObject> ();
 
@@ -22,19 +28,16 @@ public class ObjectPooler : MonoBehaviour
 
     private void CreateObjectPool()
     {
-        Debug.Log(pooledAmount);
-
         for (int i = 0; i < pooledAmount; i++)
         {
             GameObject obj = Instantiate(pooledObject);
             obj.SetActive(false);
             pooledObjects.Add(obj);
-
-            if (poolParent == null) return;
-
-            obj.transform.parent = poolParent;
-            obj.transform.position = new Vector3(poolParent.position.x, poolParent.position.y, poolParent.position.z + i * 0.25f);
-            obj.GetComponent<StackCoinMovementController>().ConnectedNode = i == 0 ? poolParent.transform : pooledObjects[i - 1].transform;
+            obj.transform.parent = poolParent == null ? transform : poolParent; 
+            obj.transform.position = new Vector3(stackPos.position.x, stackPos.position.y, stackPos.position.z + i * coinSize);
+            obj.GetComponent<StackCoinMovementController>().ConnectedNode = i == 0 ? stackPos.transform : pooledObjects[i - 1].transform;
+            obj.GetComponent<StackCoinMovementController>().IndexInStack = i;
+            obj.GetComponent<StackCoinMovementController>().StackPos = stackPos;
         }
     }
 
@@ -44,7 +47,6 @@ public class ObjectPooler : MonoBehaviour
         {
             if (!pooledObjects[i].activeInHierarchy)
             {
-                Debug.Log("çalisiyor");
                 pooledObjects[i].SetActive(true);
                 return pooledObjects[i];
             }

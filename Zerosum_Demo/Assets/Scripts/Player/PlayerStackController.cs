@@ -53,6 +53,7 @@ public class PlayerStackController : MonoBehaviour
         {
             GameObject obj = objectPooler.GetPooledObject();
             stacks.Add(obj);
+            // obj.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + i * 1.5f);
             stackPerct = (float)stackAmount / (float)maxStackLimit;
             animationController.BlendValue = stackPerct;
         }
