@@ -5,28 +5,35 @@ using UnityEngine;
 
 public class DataManager : MonoBehaviour
 {
+    /// <summary>
+    /// This script is for save & load function of the game.
+    /// Save & Load system could be applied with PlayerPrefs but I would like to use Json to
+    /// show my skills.
+    /// </summary>
+    /// 
     public static DataManager instace;
 
-    public PlayerData playerData;
+    private string file = "player_data.txt";
 
-    private string file = "playe_data.txt";
+    public string FilePath { get { return Application.persistentDataPath + "/" + file; } }
 
     private void Awake()
     {
         instace = this;
     }
 
-    public void Save()
+    public void Save(PlayerData playerData)
     {
+
         string json = JsonUtility.ToJson(playerData);
         WriteToFile(file, json);
     }
 
-    public void Load()
+    public PlayerData Load()
     {
-        playerData = new PlayerData();
         string json = ReadFromFile(file);
-        JsonUtility.FromJsonOverwrite(json, playerData);
+        PlayerData playerData = JsonUtility.FromJson<PlayerData>(json);
+        return playerData;
     }
 
     private void WriteToFile(string fileName, string json)

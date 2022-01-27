@@ -36,29 +36,26 @@ public class InGamePanel : MonoBehaviour
 
     void Start()
     {
-        currentSceneIndex = LevelManager.instance.CurrentSceneIndex + 1;
+        currentSceneIndex = LevelManager.instance.CurrentSceneIndex;
         levelText.text = "LEVEL " + currentSceneIndex;
+        diamondCount = GameManager.instance.CurrentDiamonds;
         diamondText.text = diamondCount.ToString();
         stackBar.value = playerStackController.StackPerct;
-        diamondCount = DataManager.instace.playerData.currentDiamonds;
     }
 
     private void UpdateCurrencyAmount()
     {
-        Debug.Log("works!");
         diamondCount++;
         diamondText.text = diamondCount.ToString();
     }
 
     private void IncreaseStackAmount()
     {
-        Debug.Log(playerStackController.StackPerct);
         stackBar.value = playerStackController.StackPerct;
     }
 
     private void DecreaseStackAmount()
     {
-        Debug.Log(playerStackController.StackPerct);
         stackBar.value = playerStackController.StackPerct;
     }
 }

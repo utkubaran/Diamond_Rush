@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    private int maxStackLimit, currentDiamonds;
+    private int maxStackLimit, currentDiamonds, stackLimitUpgradeAmount, currencyCostToUpgrade;
 
     public int MaxStackLimit { get { return maxStackLimit; } }
 
@@ -12,39 +13,39 @@ public class Player : MonoBehaviour
 
     private void OnEnable()
     {
-        EventManager.OnSceneStart.AddListener(LoadPlayerData);
+        EventManager.OnSceneStart.AddListener(LoadPlayerDataFromJson);
         EventManager.OnStackLimitUpgrade.AddListener(UpgradeMaxStackLimit);
-        EventManager.OnLevelFinish.AddListener(SavePlayerData);
+        EventManager.OnLevelFinish.AddListener(SavePlayerDataToJson);
     }
     
     private void OnDisable()
     {
-        EventManager.OnSceneStart.AddListener(LoadPlayerData);
+        EventManager.OnSceneStart.AddListener(LoadPlayerDataFromJson);
         EventManager.OnStackLimitUpgrade.AddListener(UpgradeMaxStackLimit);
-        EventManager.OnLevelFinish.AddListener(SavePlayerData);
-    }
-
-    private void Start()
-    {
-        
+        EventManager.OnLevelFinish.AddListener(SavePlayerDataToJson);
     }
 
     private void UpgradeMaxStackLimit()
     {
-        maxStackLimit++;
+        maxStackLimit += stackLimitUpgradeAmount;
+        currentDiamonds -= currencyCostToUpgrade;
+        GameManager.instance.CurrentDiamonds = currentDiamonds;
     }
 
-    private void SavePlayerData()
+    private void SavePlayerDataToJson()
     {
-        maxStackLimit = DataManager.instace.playerData.maxStackLimit;
-        currentDiamonds = DataManager.instace.playerData.currentDiamonds;
-        DataManager.instace.Save();
+        PlayerData playerData =  new PlayerData();
+        playerData.maxStackLimit = maxStackLimit;
+        playerData.currentDiamonds = currentDiamonds;
+        playerData.lastLevelIndex = LevelManager.instance.CurrentSceneIndex + 1;
+        DataManager.instace.Save(playerData);
     }
 
-    private void LoadPlayerData()
+    private void LoadPlayerDataFromJson()
     {
-        DataManager.instace.Load();
-        maxStackLimit = DataManager.instace.playerData.maxStackLimit;
-        currentDiamonds = DataManager.instace.playerData.currentDiamonds;
+        PlayerData playerData = DataManager.instace.Load();
+        maxStackLimit = playerData.maxStackLimit;
+        currentDiamonds = playerData.currentDiamonds;
+        GameManager.instance.CurrentDiamonds = currentDiamonds;
     }
 }

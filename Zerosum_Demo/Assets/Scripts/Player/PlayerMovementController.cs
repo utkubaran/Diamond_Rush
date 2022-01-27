@@ -58,6 +58,7 @@ public class PlayerMovementController : MonoBehaviour
         if (movementDirection.magnitude >= movementThreshold)
         {
             horizontalPos = Mathf.Clamp(movementDirection.x * swerveSpeed * Time.deltaTime + _transform.position.x, -xBorder, +xBorder);
+            // horizontalPos = Mathf.Lerp(_transform.position.x, horizontalPos, 0.1f);
         }
 
         verticalPos = movementSpeed * Time.deltaTime + _transform.position.z;

@@ -8,9 +8,6 @@ public class PlayerStackController : MonoBehaviour
     private CharacterDataSO playerData;
 
     [SerializeField]
-    private int maxStackLimit;
-
-    [SerializeField]
     private Transform stackBag1;
 
     [SerializeField]
@@ -19,11 +16,13 @@ public class PlayerStackController : MonoBehaviour
     [SerializeField]
     private ObjectPooler objectPooler;
 
+    private Player player;
+
     private PlayerAnimationController animationController;
 
     private List<GameObject> stacks;
 
-    private int stackAmount;
+    private int stackAmount, maxStackLimit;
 
     private float stackPerct;
     public float StackPerct { get { return stackPerct; } }
@@ -42,25 +41,14 @@ public class PlayerStackController : MonoBehaviour
 
     private void Awake()
     {
+        player = GetComponent<Player>();
         animationController = GetComponent<PlayerAnimationController>();
     }
 
     void Start()
     {
         stacks = new List<GameObject>();
-    }
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            IncreaseStack();            // todo remove
-        }
-
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            DecreaseStack();            // todo remove
-        }
+        maxStackLimit = player.MaxStackLimit;
     }
 
     private void IncreaseStack()

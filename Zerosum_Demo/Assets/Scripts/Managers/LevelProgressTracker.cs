@@ -6,6 +6,8 @@ public class LevelProgressTracker : MonoBehaviour
 {
     public static LevelProgressTracker instance;
 
+    private Transform finishLine;
+
     private int collectedDiamonds, collectedCoins;
 
     private void OnEnable()
@@ -27,8 +29,9 @@ public class LevelProgressTracker : MonoBehaviour
 
     void Start()
     {
-        collectedDiamonds = DataManager.instace.playerData.currentDiamonds;
-        // collectedDiamonds = 0;
+        // finishLine = GameObject.FindGameObjectWithTag("Finish Line").transform;
+        // collectedDiamonds = DataManager.instace.playerData.currentDiamonds;
+        collectedDiamonds = 0;
         collectedCoins = 0;
     }
 

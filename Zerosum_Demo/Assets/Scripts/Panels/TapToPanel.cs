@@ -13,12 +13,17 @@ public class TapToPanel : MonoBehaviour
 
     void Start()
     {
-        currentSceneIndex = LevelManager.instance.CurrentSceneIndex + 1;
+        currentSceneIndex = LevelManager.instance.CurrentSceneIndex;
         levelText.text = "LEVEL " + currentSceneIndex;
     }
 
     public void TapToPlayButton()
     {
         EventManager.OnTapToplayButtonPressed?.Invoke();
+    }
+
+    public void UpgradeButton()
+    {
+        EventManager.OnStackLimitUpgrade?.Invoke();
     }
 }
