@@ -27,7 +27,7 @@ public static class EventManager
     #endregion
 
     #region Upgrade Events
-    public static UnityEvent OnStackLimitUpgrade = new UnityEvent();
+    public static UnityEvent OnStartStackUpgrade = new UnityEvent();
     #endregion
 
     #region Save&Load Events

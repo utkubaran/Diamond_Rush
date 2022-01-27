@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dea2721bc176054a8b2c995cc126ecf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinSize: 1.2
+  coinSize: 1.25
 --- !u!114 &3554779750121807271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3280852169727172501}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4d60321afbc0f7458cbd0f58dfd9dfc, type: 3}
   m_Name: 

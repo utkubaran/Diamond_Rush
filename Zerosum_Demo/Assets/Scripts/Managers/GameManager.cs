@@ -20,8 +20,26 @@ public class GameManager : MonoBehaviour
     private int currentDiamonds;
     public int CurrentDiamonds { get { return currentDiamonds; } set { currentDiamonds = value; } }
 
+    private void OnEnable()
+    {
+        EventManager.OnStartStackUpgrade.AddListener(UpdateDiamondCount);
+    }
+
+    private void OnDisable()
+    {
+        EventManager.OnStartStackUpgrade.RemoveListener(UpdateDiamondCount);
+    }
+
     private void Awake()
     {
+        if (instance != null)   return;
+
         instance = this;
+    }
+
+    private void UpdateDiamondCount()
+    {
+        currentDiamonds -= currencyCostToUpgrade;
+        currencyCostToUpgrade *= 2;
     }
 }
