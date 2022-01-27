@@ -390,7 +390,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ca5dabd2551e514f881b5eb6e5fb8e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameplayStartDelay: 2
 --- !u!114 &111738513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,9 +426,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fad1927eece0934b80c29657529f31d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultMaxStackLimit: 10
+  startStack: 0
   currencyCostToUpgrade: 0
-  stackLimitUpgradeAmount: 0
   currentDiamonds: 0
 --- !u!1 &129818927
 GameObject:
@@ -1002,6 +1000,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 550628773}
   m_CullTransparentMesh: 1
+--- !u!4 &610826110 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2109724327079612613, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
+  m_PrefabInstance: {fileID: 2109724328718143898}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &657653082 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5821925811991756491, guid: 74ee5713b506b7c478f6f22a07a59d7f, type: 3}
@@ -4109,12 +4112,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1262792166597143048, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
+      propertyPath: poolParent
+      value: 
+      objectReference: {fileID: 610826110}
+    - target: {fileID: 1262792166597143048, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
       propertyPath: pooledAmount
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1262792166597143051, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
-      propertyPath: maxStackLimit
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1262792166597143060, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
       propertyPath: m_Name
@@ -4163,6 +4166,18 @@ PrefabInstance:
     - target: {fileID: 1931347581038457006, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109724327079612613, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109724327079612613, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.082
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109724327079612613, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.887
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}

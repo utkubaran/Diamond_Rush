@@ -7,7 +7,7 @@ public class PlayerData
 {
     public int lastLevelIndex;
 
-    public int maxStackLimit;
+    public int startStack;
 
     public int currentDiamonds;
 }

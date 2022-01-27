@@ -5,15 +5,6 @@ using UnityEngine;
 public class PlayerStackController : MonoBehaviour
 {
     [SerializeField]
-    private CharacterDataSO playerData;
-
-    [SerializeField]
-    private Transform stackBag1;
-
-    [SerializeField]
-    private Transform stackBag2;
-
-    [SerializeField]
     private ObjectPooler objectPooler;
 
     private Player player;
@@ -22,7 +13,7 @@ public class PlayerStackController : MonoBehaviour
 
     private List<GameObject> stacks;
 
-    private int stackAmount, maxStackLimit;
+    private int maxStackLimit = 20, stackAmount, startStack;
 
     private float stackPerct;
     public float StackPerct { get { return stackPerct; } }
@@ -48,7 +39,8 @@ public class PlayerStackController : MonoBehaviour
     void Start()
     {
         stacks = new List<GameObject>();
-        maxStackLimit = player.MaxStackLimit;
+        stackAmount = player.StartStack;
+        stackPerct = (float)stackAmount / (float)maxStackLimit;
     }
 
     private void IncreaseStack()

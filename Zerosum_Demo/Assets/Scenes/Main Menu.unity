@@ -776,7 +776,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ca5dabd2551e514f881b5eb6e5fb8e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameplayStartDelay: 2
 --- !u!114 &1014382534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -789,7 +788,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fad1927eece0934b80c29657529f31d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultMaxStackLimit: 0
+  startStack: 0
+  currencyCostToUpgrade: 0
+  currentDiamonds: 0
 --- !u!1 &1613825508
 GameObject:
   m_ObjectHideFlags: 0

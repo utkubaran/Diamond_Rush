@@ -5,15 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    [SerializeField]
-    private float gameplayStartDelay = 2f;
-
     public static LevelManager instance;
 
     private int currentSceneIndex;
     public int CurrentSceneIndex { get { return currentSceneIndex; } }
-
-    private int defaultMaxStackLimit;
 
     private void OnEnable()
     {
@@ -33,9 +28,7 @@ public class LevelManager : MonoBehaviour
     }
 
     private void Start()
-    {
-        EventManager.OnSceneStart?.Invoke();
-        
+    {   
         if (currentSceneIndex != 0)     return;
 
         string filePath = DataManager.instace.FilePath;
@@ -44,10 +37,11 @@ public class LevelManager : MonoBehaviour
 
         PlayerData playerData = new PlayerData();
         playerData.currentDiamonds = 0;
-        playerData.maxStackLimit = GameManager.instance.DefaultMaxStackLimit;
+        playerData.startStack = 0;
         playerData.lastLevelIndex = SceneManager.GetActiveScene().buildIndex + 1;
         
         DataManager.instace.Save(playerData);
+        EventManager.OnSceneStart?.Invoke();
     }
     
     private void StartGameplay()

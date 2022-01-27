@@ -22,17 +22,19 @@ public class ObjectPooler : MonoBehaviour
 
     private void CreateObjectPool()
     {
+        Debug.Log(pooledAmount);
+
         for (int i = 0; i < pooledAmount; i++)
         {
             GameObject obj = Instantiate(pooledObject);
-            // obj.transform.parent = transform;
             obj.SetActive(false);
             pooledObjects.Add(obj);
 
             if (poolParent == null) return;
 
             obj.transform.parent = poolParent;
-            obj.transform.position = new Vector3(poolParent.position.x, poolParent.position.y + 0.15f * i, poolParent.position.z);
+            obj.transform.position = new Vector3(poolParent.position.x, poolParent.position.y, poolParent.position.z + i * 0.25f);
+            obj.GetComponent<StackCoinMovementController>().ConnectedNode = i == 0 ? poolParent.transform : pooledObjects[i - 1].transform;
         }
     }
 
@@ -42,6 +44,7 @@ public class ObjectPooler : MonoBehaviour
         {
             if (!pooledObjects[i].activeInHierarchy)
             {
+                Debug.Log("çalisiyor");
                 pooledObjects[i].SetActive(true);
                 return pooledObjects[i];
             }

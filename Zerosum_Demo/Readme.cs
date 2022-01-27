@@ -85,13 +85,13 @@
  * 
  *  Levels :
  *      There must be minimum 2, maximum 5 different levels.
- *      Level number must increase if you reach finish.
- *      Level number must be remembered if game is closed and opened again.
- *      After your last unique level finished, you must repeat them.
+ *      -----Level number must increase if you reach finish.
+ *      -----Level number must be remembered if game is closed and opened again.
+ *      -----After your last unique level finished, you must repeat them.
  *
  *  Currency :
- *      Currency Amount must be remembered if game is closed and opened again.
- *      The amount will increase after collecting a currency collectable and, decreases after using upgrade button.
+ *      -----Currency Amount must be remembered if game is closed and opened again.
+ *      -----The amount will increase after collecting a currency collectable and, decreases after using upgrade button.
  *
  *  Start Stack Upgrade Button :
  *      Start stack represent the amount that our stack at start.

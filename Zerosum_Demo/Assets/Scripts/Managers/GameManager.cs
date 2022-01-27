@@ -7,19 +7,14 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     [SerializeField]
-    private int defaultMaxStackLimit;
+    private int startStack;
 
     [SerializeField]
     private int currencyCostToUpgrade;
 
-    [SerializeField]
-    private int stackLimitUpgradeAmount;
-
-    public int DefaultMaxStackLimit { get { return defaultMaxStackLimit; } }
+    public int StartStack { get { return startStack; } }
 
     public int CurrencyCostToUpgrade { get { return currencyCostToUpgrade; } }
-
-    public int StackLimitUpgradeAmount { get { return stackLimitUpgradeAmount; } }
 
     [SerializeField]
     private int currentDiamonds;
