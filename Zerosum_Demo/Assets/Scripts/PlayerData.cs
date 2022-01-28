@@ -9,5 +9,5 @@ public class PlayerData
 
     public int startStack;
 
-    public int currentDiamonds;
+    public int currentCoins;
 }

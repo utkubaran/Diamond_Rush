@@ -13,40 +13,40 @@ public class InGamePanel : MonoBehaviour
     private TextMeshProUGUI levelText;
 
     [SerializeField]
-    private TextMeshProUGUI diamondText;
+    private TextMeshProUGUI coinText;
 
     [SerializeField]
     private Slider stackBar;
 
-    private int currentSceneIndex, diamondCount;
+    private int currentSceneIndex, coinCount;
 
     private void OnEnable()
     {
-        EventManager.OnCoinCollected.AddListener(IncreaseStackAmount);
+        EventManager.OnDiamondCollected.AddListener(IncreaseStackAmount);
         EventManager.OnHitObstacle.AddListener(DecreaseStackAmount);
-        EventManager.OnDiamondCollected.AddListener(UpdateCurrencyAmount);
+        EventManager.OnCoinCollected.AddListener(UpgradeCoinAmount);
     }
 
     private void OnDisble()
     {
-        EventManager.OnCoinCollected.RemoveListener(IncreaseStackAmount);
+        EventManager.OnDiamondCollected.RemoveListener(IncreaseStackAmount);
         EventManager.OnHitObstacle.RemoveListener(DecreaseStackAmount);
-        EventManager.OnDiamondCollected.RemoveListener(UpdateCurrencyAmount);
+        EventManager.OnCoinCollected.RemoveListener(UpgradeCoinAmount);
     }
 
     void Start()
     {
         currentSceneIndex = LevelManager.instance.CurrentSceneIndex;
         levelText.text = "LEVEL " + currentSceneIndex;
-        diamondCount = GameManager.instance.CurrentDiamonds;
-        diamondText.text = diamondCount.ToString();
+        coinCount = GameManager.instance.CurrentCoins;
+        coinText.text = coinCount.ToString();
         stackBar.value = playerStackController.StackPerct;
     }
 
-    private void UpdateCurrencyAmount()
+    private void UpgradeCoinAmount()
     {
-        diamondCount++;
-        diamondText.text = diamondCount.ToString();
+        coinCount++;
+        coinText.text = coinCount.ToString();
     }
 
     private void IncreaseStackAmount()

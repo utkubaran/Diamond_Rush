@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    private int startStack, currentDiamonds;
+    private int startStack, currentCoins;
 
     public int StartStack { get { return startStack; } }
 
-    public int CurrentDiamonds { get { return currentDiamonds; } }
+    public int CurrentCoins { get { return currentCoins; } }
 
     private void OnEnable()
     {
@@ -27,16 +27,16 @@ public class Player : MonoBehaviour
 
     private void UpgradeMaxStackLimit()
     {
-        EventManager.OnCoinCollected?.Invoke();
+        EventManager.OnDiamondCollected?.Invoke();
         startStack++;
-        GameManager.instance.CurrentDiamonds = currentDiamonds;
+        GameManager.instance.CurrentCoins = currentCoins;
     }
 
     private void SavePlayerDataToJson()
     {
         PlayerData playerData =  new PlayerData();
         playerData.startStack = startStack;
-        playerData.currentDiamonds = currentDiamonds;
+        playerData.currentCoins = currentCoins;
         playerData.lastLevelIndex = LevelManager.instance.CurrentSceneIndex + 1;
         DataManager.instace.Save(playerData);
     }
@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
     {
         PlayerData playerData = DataManager.instace.Load();
         startStack = playerData.startStack;
-        currentDiamonds = playerData.currentDiamonds;
-        GameManager.instance.CurrentDiamonds = currentDiamonds;
+        currentCoins = playerData.currentCoins;
+        GameManager.instance.CurrentCoins = currentCoins;
     }
 }

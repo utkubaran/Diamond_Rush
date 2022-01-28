@@ -10,15 +10,15 @@ public class GameManager : MonoBehaviour
     private int startStack;
 
     [SerializeField]
-    private int currencyCostToUpgrade;
+    private int coinCostToUpgrade;
 
     public int StartStack { get { return startStack; } }
 
-    public int CurrencyCostToUpgrade { get { return currencyCostToUpgrade; } }
+    public int CoinCostToUpgrade { get { return coinCostToUpgrade; } }
 
     [SerializeField]
-    private int currentDiamonds;
-    public int CurrentDiamonds { get { return currentDiamonds; } set { currentDiamonds = value; } }
+    private int currentCoins;
+    public int CurrentCoins { get { return currentCoins; } set { currentCoins = value; } }
 
     private void OnEnable()
     {
@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
 
     private void UpdateDiamondCount()
     {
-        currentDiamonds -= currencyCostToUpgrade;
-        currencyCostToUpgrade *= 2;
+        currentCoins -= coinCostToUpgrade;
+        coinCostToUpgrade *= 2;
     }
 }

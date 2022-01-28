@@ -36,7 +36,7 @@ public class LevelManager : MonoBehaviour
         if (System.IO.File.Exists(filePath))    return;
 
         PlayerData playerData = new PlayerData();
-        playerData.currentDiamonds = 0;
+        playerData.currentCoins = 0;
         playerData.startStack = 0;
         playerData.lastLevelIndex = SceneManager.GetActiveScene().buildIndex + 1;
         

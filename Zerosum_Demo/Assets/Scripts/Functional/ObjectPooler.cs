@@ -35,9 +35,9 @@ public class ObjectPooler : MonoBehaviour
             pooledObjects.Add(obj);
             obj.transform.parent = poolParent == null ? transform : poolParent; 
             obj.transform.position = new Vector3(stackPos.position.x, stackPos.position.y, stackPos.position.z + i * coinSize);
-            obj.GetComponent<StackCoinMovementController>().ConnectedNode = i == 0 ? stackPos.transform : pooledObjects[i - 1].transform;
-            obj.GetComponent<StackCoinMovementController>().IndexInStack = i;
-            obj.GetComponent<StackCoinMovementController>().StackPos = stackPos;
+            obj.GetComponent<StackDiamondMovementController>().ConnectedNode = i == 0 ? stackPos.transform : pooledObjects[i - 1].transform;
+            obj.GetComponent<StackDiamondMovementController>().IndexInStack = i;
+            obj.GetComponent<StackDiamondMovementController>().StackPos = stackPos;
         }
     }
 

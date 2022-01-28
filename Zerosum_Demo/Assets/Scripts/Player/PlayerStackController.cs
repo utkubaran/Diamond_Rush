@@ -20,13 +20,13 @@ public class PlayerStackController : MonoBehaviour
 
     private void OnEnable()
     {
-        EventManager.OnCoinCollected.AddListener(IncreaseStack);
+        EventManager.OnDiamondCollected.AddListener(IncreaseStack);
         EventManager.OnHitObstacle.AddListener(DecreaseStack);
     }
 
     private void OnDisable()
     {
-        EventManager.OnCoinCollected.RemoveListener(IncreaseStack);
+        EventManager.OnDiamondCollected.RemoveListener(IncreaseStack);
         EventManager.OnHitObstacle.RemoveListener(DecreaseStack);
     }
 

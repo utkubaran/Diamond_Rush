@@ -30,15 +30,15 @@ public class TapToPanel : MonoBehaviour
     void Start()
     {
         currentSceneIndex = LevelManager.instance.CurrentSceneIndex;
-        diamondCountText.text = GameManager.instance.CurrentDiamonds.ToString();
-        upgradeButtonText.text = "Upgrade: " + GameManager.instance.CurrencyCostToUpgrade.ToString();
+        diamondCountText.text = GameManager.instance.CurrentCoins.ToString();
+        upgradeButtonText.text = "Upgrade: " + GameManager.instance.CoinCostToUpgrade.ToString();
         levelText.text = "LEVEL " + currentSceneIndex;
     }
 
     private void UpdateDiamondCountText()
     {
-        diamondCountText.text = GameManager.instance.CurrentDiamonds.ToString();
-        upgradeButtonText.text = "Upgrade: " + GameManager.instance.CurrencyCostToUpgrade.ToString();
+        diamondCountText.text = GameManager.instance.CurrentCoins.ToString();
+        upgradeButtonText.text = "Upgrade: " + GameManager.instance.CoinCostToUpgrade.ToString();
     }
 
     public void TapToPlayButton()
