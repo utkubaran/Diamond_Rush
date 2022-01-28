@@ -14,18 +14,18 @@ public class Player : MonoBehaviour
     private void OnEnable()
     {
         EventManager.OnSceneStart.AddListener(LoadPlayerDataFromJson);
-        EventManager.OnStartStackUpgrade.AddListener(UpgradeMaxStackLimit);
+        EventManager.OnStartStackUpgrade.AddListener(UpgradeStartStack);
         EventManager.OnLevelFinish.AddListener(SavePlayerDataToJson);
     }
     
     private void OnDisable()
     {
         EventManager.OnSceneStart.AddListener(LoadPlayerDataFromJson);
-        EventManager.OnStartStackUpgrade.AddListener(UpgradeMaxStackLimit);
+        EventManager.OnStartStackUpgrade.AddListener(UpgradeStartStack);
         EventManager.OnLevelFinish.AddListener(SavePlayerDataToJson);
     }
 
-    private void UpgradeMaxStackLimit()
+    private void UpgradeStartStack()
     {
         EventManager.OnDiamondCollected?.Invoke();
         startStack++;

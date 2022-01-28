@@ -878,7 +878,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 500, y: 350}
+  m_SizeDelta: {x: 400, y: 250}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &378481527
 MonoBehaviour:
@@ -2581,8 +2581,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -50, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -25, y: 0}
+  m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &894959981
 MonoBehaviour:
@@ -3550,7 +3550,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 250, y: 150}
+  m_SizeDelta: {x: 200, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1268594718
 MonoBehaviour:
@@ -4153,8 +4153,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75
-  m_fontSizeBase: 75
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4220,7 +4220,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -35, y: -50}
+  m_AnchoredPosition: {x: 0, y: -25}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 1, y: 1}
 --- !u!1 &1487777846
@@ -4380,7 +4380,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1589898340
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5488,17 +5488,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 587823939, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 693236897, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1262792166597143048, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
       propertyPath: poolParent
       value: 
       objectReference: {fileID: 200533124}
-    - target: {fileID: 1262792166597143048, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
-      propertyPath: pooledObject
-      value: 
-      objectReference: {fileID: 4009402315352583849, guid: 4f3ea6c8bce48134cbdc3fec7e645b5b, type: 3}
     - target: {fileID: 1262792166597143060, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262792166597143061, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
+      propertyPath: swerveSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262792166597143061, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
+      propertyPath: movementSpeed
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611518445223893400, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1931347581038457006, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
       propertyPath: m_RootOrder

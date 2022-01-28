@@ -13,7 +13,10 @@ public class PlayerStackController : MonoBehaviour
 
     private List<GameObject> stacks;
 
-    private int maxStackLimit = 20, stackAmount, startStack;
+    private int maxStackLimit = 20, startStack;
+
+    private int stackAmount;
+    public int StackAmount { get { return stackAmount; } }
 
     private float stackPerct;
     public float StackPerct { get { return stackPerct; } }
@@ -41,6 +44,11 @@ public class PlayerStackController : MonoBehaviour
         stacks = new List<GameObject>();
         stackAmount = player.StartStack;
         stackPerct = (float)stackAmount / (float)maxStackLimit;
+
+        for (int i = 0; i < stackAmount; i++)
+        {
+            IncreaseStack();
+        }
     }
 
     private void IncreaseStack()

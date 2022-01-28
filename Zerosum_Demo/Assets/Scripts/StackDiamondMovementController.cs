@@ -7,7 +7,7 @@ public class StackDiamondMovementController : MonoBehaviour
     [SerializeField]
     private float coinSize;
 
-    private float nodeSpeed = 10f;
+    private float nodeSpeed = 7.5f;
 
     private Transform connectedNode, stackPos;
     public Transform ConnectedNode { set { connectedNode = value; } }
@@ -18,7 +18,7 @@ public class StackDiamondMovementController : MonoBehaviour
 
     public int IndexInStack { set { indexInStack = value; } }
 
-    void FixedUpdate()
+    void Update()
     {
         /*
         Vector3 pos1 = new Vector3(transform.position.x, transform.position.y, stackPos.position.z + coinSize * indexInStack);
@@ -27,7 +27,7 @@ public class StackDiamondMovementController : MonoBehaviour
         transform.position = pos;
         */
 
-        float xPos = Mathf.SmoothStep(transform.position.x, connectedNode.position.x, Time.deltaTime * nodeSpeed);
+        float xPos = Mathf.Lerp(transform.position.x, connectedNode.position.x, Time.deltaTime * nodeSpeed);
         transform.position = new Vector3(xPos, transform.position.y, stackPos.position.z + indexInStack * coinSize);
     }
 }
