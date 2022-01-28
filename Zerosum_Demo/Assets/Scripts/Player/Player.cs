@@ -27,9 +27,12 @@ public class Player : MonoBehaviour
 
     private void UpgradeStartStack()
     {
+        if (currentCoins < GameManager.instance.CoinCostToUpgrade) return;
+
         EventManager.OnDiamondCollected?.Invoke();
         startStack++;
-        GameManager.instance.CurrentCoins = currentCoins;
+        currentCoins = GameManager.instance.CurrentCoins;
+        // GameManager.instance.CurrentCoins = currentCoins;
     }
 
     private void SavePlayerDataToJson()

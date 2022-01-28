@@ -29,6 +29,8 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {   
+        EventManager.OnSceneStart?.Invoke();
+        
         if (currentSceneIndex != 0)     return;
 
         string filePath = DataManager.instace.FilePath;
@@ -41,7 +43,6 @@ public class LevelManager : MonoBehaviour
         playerData.lastLevelIndex = SceneManager.GetActiveScene().buildIndex + 1;
         
         DataManager.instace.Save(playerData);
-        EventManager.OnSceneStart?.Invoke();
     }
     
     private void StartGameplay()

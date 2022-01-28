@@ -7,7 +7,7 @@ public class StackDiamondMovementController : MonoBehaviour
     [SerializeField]
     private float coinSize;
 
-    private float nodeSpeed = 7.5f;
+    private float nodeSpeed = 20f;
 
     private Transform connectedNode, stackPos;
     public Transform ConnectedNode { set { connectedNode = value; } }
