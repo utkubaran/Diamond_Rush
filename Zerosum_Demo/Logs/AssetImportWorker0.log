@@ -15,11 +15,11 @@ C:/Users/baran/Desktop/Unity/ZSum_Demo/Zerosum_Demo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49840
+58394
 Successfully changed project path to: C:/Users/baran/Desktop/Unity/ZSum_Demo/Zerosum_Demo
 C:/Users/baran/Desktop/Unity/ZSum_Demo/Zerosum_Demo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.57 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 52.50 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path C:/Users/baran/Desktop/Unity/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Users/baran/Desktop/Unity/2020.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/baran/Desktop/Unity/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/baran/Desktop/Unity/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/baran/Desktop/Unity/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001239 seconds.
+Registered in 0.001325 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.10 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 47.07 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.506 seconds
+- Completed reload, in  0.525 seconds
 Domain Reload Profiling:
-	ReloadAssembly (506ms)
-		BeginReloadAssembly (39ms)
+	ReloadAssembly (525ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (404ms)
-			LoadAssemblies (38ms)
+		EndReloadAssembly (409ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (112ms)
+			SetupTypeCache (127ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (174ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (182ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (68ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005302 seconds.
+Registered in 0.003648 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.54 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 54.99 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.021 seconds
+- Completed reload, in  1.146 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1022ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (1147ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (852ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (954ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
+			SetupTypeCache (339ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (330ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (321ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (190ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3141 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.7 MB.
-System memory in use after: 140.9 MB.
+System memory in use before: 138.8 MB.
+System memory in use after: 139.0 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3570.
-Total: 3.997700 ms (FindLiveObjects: 0.372100 ms CreateObjectMapping: 0.163900 ms MarkObjects: 3.400600 ms  DeleteObjects: 0.060300 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3574.
+Total: 2.691300 ms (FindLiveObjects: 0.232600 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.282800 ms  DeleteObjects: 0.088900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,1360 +131,112 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/3rd Party Assets/Obstacle_Pack
-  artifactKey: Guid(fbb9de2e04f2e8a408ac5f1cee2ac3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Obstacle_Pack using Guid(fbb9de2e04f2e8a408ac5f1cee2ac3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317609655e387a4c0b9214460fcc222a') in 0.016451 seconds 
-  Import took 0.022793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.182260 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6
-  artifactKey: Guid(7602f442e4054c544bfee67d6d59f9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6 using Guid(7602f442e4054c544bfee67d6d59f9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fb95233ed1b22d0959304d52890eb8') in 0.009656 seconds 
-  Import took 0.017123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.871830 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons
-  artifactKey: Guid(2f4d07b7af6e6184d9597d24e8040495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons using Guid(2f4d07b7af6e6184d9597d24e8040495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e77cba95b6f8d87c456f01a69b48b98') in 0.011648 seconds 
-  Import took 0.020322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.369592 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/7.png
-  artifactKey: Guid(d19e01e32d95d11468a2fcfa71a44c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/7.png using Guid(d19e01e32d95d11468a2fcfa71a44c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0775a8d7a38efd757b4ec113cc3fe7fd') in 0.125865 seconds 
-  Import took 0.130498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.818665 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/8.png
-  artifactKey: Guid(f6de3c5119d38084e8d2e2aaedf63132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/8.png using Guid(f6de3c5119d38084e8d2e2aaedf63132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427c00274c91dc238bc46f9e9e64a66a') in 0.038308 seconds 
-  Import took 0.044018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.239396 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/9.png
-  artifactKey: Guid(ee9a96ae5cc9be94ab5a6c7a995ce169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/9.png using Guid(ee9a96ae5cc9be94ab5a6c7a995ce169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd301045d39408d0799ced5e6d6a77dba') in 0.033674 seconds 
-  Import took 0.041495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058082 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/10.png
-  artifactKey: Guid(c626362ae451e544c8a1c64f37dee89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/10.png using Guid(c626362ae451e544c8a1c64f37dee89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9f1f21ebc93b42bcf69344472b7510') in 0.035184 seconds 
-  Import took 0.042350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.206981 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/11.png
-  artifactKey: Guid(08539fb12005ab84182fee18c660f175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/11.png using Guid(08539fb12005ab84182fee18c660f175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598fc6fa52ea93455f4dfa0f92514bbe') in 0.030471 seconds 
-  Import took 0.036019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063835 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/12.png
-  artifactKey: Guid(5a9e78e81467611418ddb1159036d419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/12.png using Guid(5a9e78e81467611418ddb1159036d419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e08b5eb1410f73689c846f70ce860a6') in 0.022183 seconds 
-  Import took 0.030923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.219698 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/13.png
-  artifactKey: Guid(ccfa52f36767fab4caf7e3acc5e3ac69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/13.png using Guid(ccfa52f36767fab4caf7e3acc5e3ac69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613b9826a0815088e2eafee0ddaa89b8') in 0.025053 seconds 
-  Import took 0.033346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.067257 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/14.png
-  artifactKey: Guid(9c47d577219526046bbedca73a759b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/14.png using Guid(9c47d577219526046bbedca73a759b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c39b2db15644941a0031c658bf49d7f') in 0.020683 seconds 
-  Import took 0.026803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.221661 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/15.png
-  artifactKey: Guid(308940fb784e9554fbd3ea98736fb0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/15.png using Guid(308940fb784e9554fbd3ea98736fb0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5f6e020b2993f561cbf451a636041e') in 0.024927 seconds 
-  Import took 0.030468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.069907 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/16.png
-  artifactKey: Guid(0993773a278265a42bddf1f86af454af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/16.png using Guid(0993773a278265a42bddf1f86af454af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fbd99d750cc05c3aef7619c1067a35') in 0.020481 seconds 
-  Import took 0.026159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.227202 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/17.png
-  artifactKey: Guid(16be3cc4004c0f241a965b687ec207cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/17.png using Guid(16be3cc4004c0f241a965b687ec207cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7186fa572ad3e601c6a7cc7c631169') in 0.028616 seconds 
-  Import took 0.034659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062875 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/18.png
-  artifactKey: Guid(908b3f6f3f519244a9ef8753da65182b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/18.png using Guid(908b3f6f3f519244a9ef8753da65182b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482dc0b8770025325a883a67c90c986a') in 0.025488 seconds 
-  Import took 0.030340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.089741 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/19.png
-  artifactKey: Guid(4269f0795e1f81f4cb7b4a74b7f8b22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/19.png using Guid(4269f0795e1f81f4cb7b4a74b7f8b22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01c7e1f4c13e9e1afc1ae3ea86368fc') in 0.022228 seconds 
-  Import took 0.028726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.233909 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/20.png
-  artifactKey: Guid(ed59acbc9c67fc04e84e3f8af538809a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/20.png using Guid(ed59acbc9c67fc04e84e3f8af538809a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d11404a5437b092aa161a6250419975') in 0.023090 seconds 
-  Import took 0.028459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.071563 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/21.png
-  artifactKey: Guid(34633898bd13e854ca4af0662263c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/21.png using Guid(34633898bd13e854ca4af0662263c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7becc9dac54fae3e585210b1a4de5886') in 0.021049 seconds 
-  Import took 0.027062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.221728 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/22.png
-  artifactKey: Guid(8ad830042a731974e8029656b0d07027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/22.png using Guid(8ad830042a731974e8029656b0d07027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0f3b3ec43be0e39e11ae934c0f5778') in 0.023185 seconds 
-  Import took 0.028630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.073056 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/23.png
-  artifactKey: Guid(e2579a611c2ef7246bcb79b5395fb7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/23.png using Guid(e2579a611c2ef7246bcb79b5395fb7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c1f041f3ec18046304f0809b2f247b') in 0.023686 seconds 
-  Import took 0.030760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.084161 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/24.png
-  artifactKey: Guid(5ba5fa3396cb5c1498e81842cabb8686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/24.png using Guid(5ba5fa3396cb5c1498e81842cabb8686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d85e2fc26b63e82fc6868c1c95f574') in 0.025708 seconds 
-  Import took 0.031395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.235556 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/25.png
-  artifactKey: Guid(c857d5e4313dc294fa1b368e5b7ebc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/25.png using Guid(c857d5e4313dc294fa1b368e5b7ebc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c324f31a8a4699ae4586e1c8e4e9208c') in 0.021793 seconds 
-  Import took 0.028272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.155165 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/26.png
-  artifactKey: Guid(1f7357f661783d24981c268d52654ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/26.png using Guid(1f7357f661783d24981c268d52654ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e0fe71450add082d284288854dd2eb') in 0.039316 seconds 
-  Import took 0.047323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.135621 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/blue-button-round.png
-  artifactKey: Guid(d4bb43d3bcf638149b33a481433ffa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/blue-button-round.png using Guid(d4bb43d3bcf638149b33a481433ffa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51847cf57a5087ff0ba941eecef08ed7') in 0.024086 seconds 
-  Import took 0.029014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.254195 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/green-button-round.png
-  artifactKey: Guid(7224f183b0242a54291f4aa5e7d6c864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/green-button-round.png using Guid(7224f183b0242a54291f4aa5e7d6c864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c459a8ee5e2e689c76fba0a0d1d5f3') in 0.023951 seconds 
-  Import took 0.030530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.069930 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/grey-button-round.png
-  artifactKey: Guid(90dfdf029f1b6b944948f78ba80c22ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/grey-button-round.png using Guid(90dfdf029f1b6b944948f78ba80c22ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad639f5cc7b9d374b35a593a2432e40e') in 0.037016 seconds 
-  Import took 0.043524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.207597 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/rec-blue.png
-  artifactKey: Guid(baafe8c7f6e1b5d449295e616f5ed5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/rec-blue.png using Guid(baafe8c7f6e1b5d449295e616f5ed5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b74355d242d4a6a3ace4f1eca9f4a98') in 0.026221 seconds 
-  Import took 0.033588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064012 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/rec-green.png
-  artifactKey: Guid(721013213f8f4494db2049dbc9cdbc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/rec-green.png using Guid(721013213f8f4494db2049dbc9cdbc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8056ddcb9e557e8c8258e76a58d3c3') in 0.019531 seconds 
-  Import took 0.025135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.226072 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/rec-grey.png
-  artifactKey: Guid(41e356df4c18a0f40a53bb42e0cce222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/rec-grey.png using Guid(41e356df4c18a0f40a53bb42e0cce222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c21fbaea96b564ae588f26752106cd7') in 0.020859 seconds 
-  Import took 0.026448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.256683 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/rec-red.png
-  artifactKey: Guid(dd0761b39b7aa3845bb99cd61be42097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/rec-red.png using Guid(dd0761b39b7aa3845bb99cd61be42097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe8166c1f62c7a0ace75662db591b74') in 0.020517 seconds 
-  Import took 0.027737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.478789 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/rec-yellow.png
-  artifactKey: Guid(c81541554bd616a42913b2eb6c429fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/rec-yellow.png using Guid(c81541554bd616a42913b2eb6c429fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36adf764ed66a19bd469a63be3f92c8') in 0.019394 seconds 
-  Import took 0.026561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.257799 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/rectangle-blue.png
-  artifactKey: Guid(faf9ce067f429e94d8d287f86e68f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/rectangle-blue.png using Guid(faf9ce067f429e94d8d287f86e68f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dac1ceace67cc033f66ff198bd9bac7') in 0.023673 seconds 
-  Import took 0.029948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.364048 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/rectangle-green.png
-  artifactKey: Guid(22e07300b7eab38479fde34570221850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/rectangle-green.png using Guid(22e07300b7eab38479fde34570221850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadc156c269183162d3841129902ec5b') in 0.021238 seconds 
-  Import took 0.026109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.256516 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/rectangle-grey.png
-  artifactKey: Guid(b0bc76623f5b8eb4ab77d39869d1b601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/rectangle-grey.png using Guid(b0bc76623f5b8eb4ab77d39869d1b601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9be4a0634d82800886a50d8c6694dd') in 0.034553 seconds 
-  Import took 0.040582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.244287 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/rectangle-red.png
-  artifactKey: Guid(85c5bf37d00f704459b3c8b99f7909bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/rectangle-red.png using Guid(85c5bf37d00f704459b3c8b99f7909bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fe12c5572f5057270153372fa0315e') in 0.022883 seconds 
-  Import took 0.029569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.068621 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/rectangle-yellow.png
-  artifactKey: Guid(388e21c8f23a1cb4d9bd67349183c746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/rectangle-yellow.png using Guid(388e21c8f23a1cb4d9bd67349183c746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aeb05978995672005277939239ef0ea') in 0.023920 seconds 
-  Import took 0.029790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.221859 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/red-button-round.png
-  artifactKey: Guid(c8fc6a4a3d161a440b1f05ed19ecae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/red-button-round.png using Guid(c8fc6a4a3d161a440b1f05ed19ecae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0c16ac0e794825d33779d2887dc478') in 0.039292 seconds 
-  Import took 0.047565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.234374 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/round-button-grren.png
-  artifactKey: Guid(b45b6e28726f63040ad6b9dbdcf5d35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/round-button-grren.png using Guid(b45b6e28726f63040ad6b9dbdcf5d35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4376dc813950a6e91f4367e318ce39') in 0.028643 seconds 
-  Import took 0.035150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.148021 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/yellow-button-round.png
-  artifactKey: Guid(7c30f008346ca864489cd65f7aa68686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/yellow-button-round.png using Guid(7c30f008346ca864489cd65f7aa68686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d75718a8250990728c9274172597c50') in 0.035122 seconds 
-  Import took 0.043303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.813891 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/6.png
-  artifactKey: Guid(2e87a7a913f0cba4894604176a700f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/6.png using Guid(2e87a7a913f0cba4894604176a700f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ba0f7a30077bae998ce2ad3b17f911') in 0.030032 seconds 
-  Import took 0.037144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029484 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/5.png
-  artifactKey: Guid(03505e3516b59a14e9eb156467aba42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/5.png using Guid(03505e3516b59a14e9eb156467aba42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a175d90519520773460866648d9918f3') in 0.022525 seconds 
-  Import took 0.028129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.087596 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/4.png
-  artifactKey: Guid(5cbb7677a452486449be3253d5312117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/4.png using Guid(5cbb7677a452486449be3253d5312117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991ede6198467c13e20020d90a439f4f') in 0.026247 seconds 
-  Import took 0.032105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.103121 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/3.png
-  artifactKey: Guid(103b789bf31a2e843974f2c1968768a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/3.png using Guid(103b789bf31a2e843974f2c1968768a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7afff1eeccc559241e7d6cf7e3c667') in 0.024348 seconds 
-  Import took 0.030757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102361 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/2.png
-  artifactKey: Guid(98b65f2f48bf6bc4aa6dd35a2781b328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/2.png using Guid(98b65f2f48bf6bc4aa6dd35a2781b328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f6431ec08af505b58d233aa38219df') in 0.025244 seconds 
-  Import took 0.032718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.100130 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/buttons/1.png
-  artifactKey: Guid(ab67529c6e488c242ba7ec078cc1475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/buttons/1.png using Guid(ab67529c6e488c242ba7ec078cc1475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7a2208c474ebc55ceb4fe6f2fc6fbf') in 0.025849 seconds 
-  Import took 0.032362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.869232 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/gold
-  artifactKey: Guid(916775b425036544e8ab9dbfaacd3986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/gold using Guid(916775b425036544e8ab9dbfaacd3986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef53a036753c37f83a5236735fe6a460') in 0.008783 seconds 
-  Import took 0.016272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.784170 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/gold/CAMERA.png
-  artifactKey: Guid(f42a722e3b4a94144b4788f6ab932833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/gold/CAMERA.png using Guid(f42a722e3b4a94144b4788f6ab932833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac75b598bdb2e941ef0e858980ca544a') in 0.020487 seconds 
-  Import took 0.027286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.430576 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon
-  artifactKey: Guid(c0c539dfc4c556b4b9b21a48fbd7c408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon using Guid(c0c539dfc4c556b4b9b21a48fbd7c408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3fb1667bbf2fdfeb8381641148ba4a') in 0.007693 seconds 
-  Import took 0.013339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.542922 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/5.png
-  artifactKey: Guid(b5dbb0a643b37154ebef218affafad8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/5.png using Guid(b5dbb0a643b37154ebef218affafad8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2d99acd972927570b5097ea7cb1a10') in 0.021165 seconds 
-  Import took 0.029029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.541106 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Leader-board.png
-  artifactKey: Guid(47e27b5300c80ed49a0cd1f00acfd8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Leader-board.png using Guid(47e27b5300c80ed49a0cd1f00acfd8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6dcc92d4c3962f416fc3f936289baf') in 0.023608 seconds 
-  Import took 0.028714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.559257 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/left.png
-  artifactKey: Guid(d488a86a641aecb4b8910909b4d71303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/left.png using Guid(d488a86a641aecb4b8910909b4d71303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84a75fe89854fd320acadab68d31c83') in 0.020857 seconds 
-  Import took 0.027149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.399106 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/lock.png
-  artifactKey: Guid(fc787bb5e5a09e34992ffa67cb9dd857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/lock.png using Guid(fc787bb5e5a09e34992ffa67cb9dd857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfeca84f9352f46d865271e19c256b41') in 0.021244 seconds 
-  Import took 0.027927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.465625 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Low.png
-  artifactKey: Guid(f987660c58d880b46851e6554c8fb948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Low.png using Guid(f987660c58d880b46851e6554c8fb948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812e7a07433dbfd0c0e60a29dd2922a5') in 0.024386 seconds 
-  Import took 0.030541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035536 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Medium.png
-  artifactKey: Guid(fb95530d0808414408616a068042ab52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Medium.png using Guid(fb95530d0808414408616a068042ab52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86414c0fbceee84d7dca5d1216ef14fb') in 0.020894 seconds 
-  Import took 0.026824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090956 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/menu.png
-  artifactKey: Guid(bb264056462af7144919a076d8ae7b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/menu.png using Guid(bb264056462af7144919a076d8ae7b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86af75f3286bcf83331f2a3740d1d94') in 0.032784 seconds 
-  Import took 0.039760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092256 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/minus.png
-  artifactKey: Guid(09f7740e0227e8140be8b2f07b8dd3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/minus.png using Guid(09f7740e0227e8140be8b2f07b8dd3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45eef8936d869694c0ebe3240e83ec11') in 0.022824 seconds 
-  Import took 0.029496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.103875 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Music-off.png
-  artifactKey: Guid(0ded638811f75ee4483c7c33d02fc3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Music-off.png using Guid(0ded638811f75ee4483c7c33d02fc3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd62a195d25eef6ec3dce9a6e6a4e7e') in 0.021388 seconds 
-  Import took 0.028936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.104072 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/music.png
-  artifactKey: Guid(67693d45b8710e546848272f3671c51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/music.png using Guid(67693d45b8710e546848272f3671c51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2abd953c824a8a2abe6216b3d32afb3') in 0.020517 seconds 
-  Import took 0.025154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.107889 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/normal-screen.png
-  artifactKey: Guid(dfbf6abbe04a0ea4089ff9018d1c88a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/normal-screen.png using Guid(dfbf6abbe04a0ea4089ff9018d1c88a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654b68b006ba1658302ee144dfc39e68') in 0.026068 seconds 
-  Import took 0.033806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.101180 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/ok.png
-  artifactKey: Guid(c540c43263bcc6c42ab9ce582fb80924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/ok.png using Guid(c540c43263bcc6c42ab9ce582fb80924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f65f76d85ba346e1963cdb4a2a6e1c') in 0.030007 seconds 
-  Import took 0.036916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096401 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Pause.png
-  artifactKey: Guid(f89c169f51d1e714c81b44070965cc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Pause.png using Guid(f89c169f51d1e714c81b44070965cc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1de76c98cac075625dd28612b8e5753') in 0.018536 seconds 
-  Import took 0.025101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.108152 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/photo.png
-  artifactKey: Guid(c5263b122df5979438f3806d8b529cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/photo.png using Guid(c5263b122df5979438f3806d8b529cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c25fa400e87ba0e9e4da3f64fd3cbb4') in 0.023063 seconds 
-  Import took 0.028799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.104007 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/pin.png
-  artifactKey: Guid(ce7dda7d0aca4094aa4207afd175168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/pin.png using Guid(ce7dda7d0aca4094aa4207afd175168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e01dfa66a201e28df2d79cfce5c63d') in 0.019284 seconds 
-  Import took 0.025458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.108925 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Plus.png
-  artifactKey: Guid(af18cf390a9c8154c99d69f3ea577e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Plus.png using Guid(af18cf390a9c8154c99d69f3ea577e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c05570e45aac3e621e966e5ce3a399') in 0.019707 seconds 
-  Import took 0.026935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.104393 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Premium.png
-  artifactKey: Guid(d02bde49b24a7b04a953a1235c774899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Premium.png using Guid(d02bde49b24a7b04a953a1235c774899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922e0e08147c43e5eb1594414ca08d28') in 0.020282 seconds 
-  Import took 0.026255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.108576 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/quetion.png
-  artifactKey: Guid(5341b9d179f1948418f83a4ff39c1a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/quetion.png using Guid(5341b9d179f1948418f83a4ff39c1a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35eda29e374786b1a7059cc1cfab54d7') in 0.024406 seconds 
-  Import took 0.031492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.100904 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Retry.png
-  artifactKey: Guid(a15bdbdd264cce14b9151ebd528e63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Retry.png using Guid(a15bdbdd264cce14b9151ebd528e63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72193450b6659a558555fe792221ef55') in 0.024167 seconds 
-  Import took 0.030916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.104714 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/rewards.png
-  artifactKey: Guid(c5524708b49356c40ac4137488d2162e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/rewards.png using Guid(c5524708b49356c40ac4137488d2162e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00f233a6331fbc6197916fa328d101c') in 0.019977 seconds 
-  Import took 0.025885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.106115 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/right-1.png
-  artifactKey: Guid(79d95b762b6d7ac49b8fb4ea945223ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/right-1.png using Guid(79d95b762b6d7ac49b8fb4ea945223ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1985dbb6082b9f8a7bd81278e0e5a763') in 0.018451 seconds 
-  Import took 0.024746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.106204 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Right.png
-  artifactKey: Guid(2ca972e4d0015e04f948ccf0d6081bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Right.png using Guid(2ca972e4d0015e04f948ccf0d6081bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58f64a251d6d392284df9ff5e31afbc') in 0.020176 seconds 
-  Import took 0.025766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.109135 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/rmove-people.png
-  artifactKey: Guid(8938bf4730a132e4b91df4d2abfe4184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/rmove-people.png using Guid(8938bf4730a132e4b91df4d2abfe4184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631f315da66cb34d2c0b30f0bd97cf04') in 0.019311 seconds 
-  Import took 0.025960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.105314 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/settings.png
-  artifactKey: Guid(099504f5e0a51864b992b8800320147f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/settings.png using Guid(099504f5e0a51864b992b8800320147f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb09788712cd9f7bc326c13b2a96cf2') in 0.018817 seconds 
-  Import took 0.023733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.109751 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/share-with-people.png
-  artifactKey: Guid(f907ba594b0c68741913861e0a0f836a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/share-with-people.png using Guid(f907ba594b0c68741913861e0a0f836a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b696fb6b5c71917daeaf4a06b6b3b1c') in 0.020507 seconds 
-  Import took 0.027162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.106951 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/shop.png
-  artifactKey: Guid(62e1499b94bf7294f868f26fb5bef720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/shop.png using Guid(62e1499b94bf7294f868f26fb5bef720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a386401f89c2a9f062628388292a5904') in 0.019391 seconds 
-  Import took 0.025213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.108130 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/skip.png
-  artifactKey: Guid(c378ab0d2fbe32a42af05eb6b394ec81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/skip.png using Guid(c378ab0d2fbe32a42af05eb6b394ec81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe1c72e6e78de9db63fafc429fed3e1') in 0.018266 seconds 
-  Import took 0.025011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.241580 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/sound-off.png
-  artifactKey: Guid(c3ffbd6273a66f74e9e7fb28a04ec1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/sound-off.png using Guid(c3ffbd6273a66f74e9e7fb28a04ec1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debfb578d5ac5c7f9e0a67534fea1814') in 0.019750 seconds 
-  Import took 0.026985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.071675 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/sound.png
-  artifactKey: Guid(1bc15f748c433904681da6a826c2f947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/sound.png using Guid(1bc15f748c433904681da6a826c2f947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3fd343d5de39d27d4c56d45b9bc63f') in 0.019136 seconds 
-  Import took 0.025430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.226497 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/star.png
-  artifactKey: Guid(373f58e4676841445bdb882a386e3ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/star.png using Guid(373f58e4676841445bdb882a386e3ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e06cc382e5995d777c1404c7469c8f8') in 0.023597 seconds 
-  Import took 0.030752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.067769 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Stop.png
-  artifactKey: Guid(7362a45cf0aba2243ac13b6ad5a5f7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Stop.png using Guid(7362a45cf0aba2243ac13b6ad5a5f7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3660b1f57049cfe667b085675be0de55') in 0.023757 seconds 
-  Import took 0.029697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.219869 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/tick.png
-  artifactKey: Guid(24b148080a7b87f4d8533c7960237d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/tick.png using Guid(24b148080a7b87f4d8533c7960237d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1923b29a5d864cb4623aec6039c3bfd') in 0.022685 seconds 
-  Import took 0.028903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.070248 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/unlock.png
-  artifactKey: Guid(bf4acbfe51b1a624cb24c245a3536008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/unlock.png using Guid(bf4acbfe51b1a624cb24c245a3536008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a306f4e2d2bee5d239056e3c0e3dbcd') in 0.018641 seconds 
-  Import took 0.025264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.225041 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/up.png
-  artifactKey: Guid(4e1114c59ba031646b7d8be78d84440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/up.png using Guid(4e1114c59ba031646b7d8be78d84440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f701264a22cae0e452574440c09020') in 0.021132 seconds 
-  Import took 0.026901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.073267 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/zoom-in.png
-  artifactKey: Guid(a05c71c3469f85a44ba664214614e359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/zoom-in.png using Guid(a05c71c3469f85a44ba664214614e359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd366c5201017525ee75dd0f239ca43') in 0.038973 seconds 
-  Import took 0.046224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.069677 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/zoom-out.png
-  artifactKey: Guid(3714c11502fd74b4f9cbcc4f5fc0a996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/zoom-out.png using Guid(3714c11502fd74b4f9cbcc4f5fc0a996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe31777afd40e898ab7c90acbad64b3') in 0.024037 seconds 
-  Import took 0.032363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.730737 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/offer.png
-  artifactKey: Guid(32439636d6797b540965b9ee85cffc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/offer.png using Guid(32439636d6797b540965b9ee85cffc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b667f050495aa1ccf415482768407f9') in 0.027800 seconds 
-  Import took 0.035540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.427791 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/no-adds.png
-  artifactKey: Guid(aa42b863cec97744a96c860f871bafc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/no-adds.png using Guid(aa42b863cec97744a96c860f871bafc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9cddbf07a92119bbc6c4de56387f10') in 0.020039 seconds 
-  Import took 0.025448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.541126 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/mission.png
-  artifactKey: Guid(78b7bfd9b1e9c6448a75d0ff44c8470d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/mission.png using Guid(78b7bfd9b1e9c6448a75d0ff44c8470d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928042f11bd3186d16d8bc914eba8537') in 0.018311 seconds 
-  Import took 0.025160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.597650 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/MAil.png
-  artifactKey: Guid(27d818a0bfdd20a4bbf84b93500ad80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/MAil.png using Guid(27d818a0bfdd20a4bbf84b93500ad80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cac449aa46c548ce9ebc531df9495a') in 0.020238 seconds 
-  Import took 0.027237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.441620 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/info.png
-  artifactKey: Guid(1f9002cc69ff3c747b36bf6f92117a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/info.png using Guid(1f9002cc69ff3c747b36bf6f92117a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab1e3a980f4ad5b56817536d563a1d5') in 0.018582 seconds 
-  Import took 0.024092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.257802 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Hint.png
-  artifactKey: Guid(5cfa9a2759576af47b44b355d52dfbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Hint.png using Guid(5cfa9a2759576af47b44b355d52dfbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8e29d394c06519dd0f9084cbb6d17e') in 0.020406 seconds 
-  Import took 0.026197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.140634 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/heart.png
-  artifactKey: Guid(4f30b6f1dac7c8c439832b020e6385ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/heart.png using Guid(4f30b6f1dac7c8c439832b020e6385ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94077d27b16990f23e07694b33bc631') in 0.019075 seconds 
-  Import took 0.025622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.073279 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Hard.png
-  artifactKey: Guid(c6300c4633a941043a874a3d5958ab03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Hard.png using Guid(c6300c4633a941043a874a3d5958ab03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbad9528b0ebeb2569d261d1fe9200e3') in 0.018044 seconds 
-  Import took 0.023433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.227479 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/full-screen.png
-  artifactKey: Guid(787b540465ed5cc44be1220ae554c932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/full-screen.png using Guid(787b540465ed5cc44be1220ae554c932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4960785ed4dcd677cc6f4060e2d10b') in 0.019403 seconds 
-  Import took 0.025389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.223254 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/free.png
-  artifactKey: Guid(4a72bd1e694546944a1dabaebdbd6380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/free.png using Guid(4a72bd1e694546944a1dabaebdbd6380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbfa6183e76b8bdf9fe76b11fed05f5') in 0.020643 seconds 
-  Import took 0.026780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.256901 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/forward.png
-  artifactKey: Guid(1dfa44d99f408ad4cb7257e340157574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/forward.png using Guid(1dfa44d99f408ad4cb7257e340157574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402ed22434291dafd9f84ff8df348d54') in 0.017517 seconds 
-  Import took 0.024888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075080 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/end.png
-  artifactKey: Guid(cbeba752ca88c2b48846b04ff5da9b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/end.png using Guid(cbeba752ca88c2b48846b04ff5da9b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f5f162ea97c2d49eb2f0ed8045cfbd') in 0.038695 seconds 
-  Import took 0.047346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.203197 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/empty-heart.png
-  artifactKey: Guid(94d83eac926c5504fbf337e095852dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/empty-heart.png using Guid(94d83eac926c5504fbf337e095852dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a7580cd7706612bffb2b10792528b3') in 0.019112 seconds 
-  Import took 0.026681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.071771 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/edit.png
-  artifactKey: Guid(48f6a4311087aad438253ce99ee2d041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/edit.png using Guid(48f6a4311087aad438253ce99ee2d041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e8a5d801236910fd6a6ec13beac7b5') in 0.019320 seconds 
-  Import took 0.024827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.226477 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/download.png
-  artifactKey: Guid(e8be04a69b0bb094984755be085daf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/download.png using Guid(e8be04a69b0bb094984755be085daf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18848a780a81904c09709e77f83669a8') in 0.065239 seconds 
-  Import took 0.073587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026071 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Down.png
-  artifactKey: Guid(4fb5e0e2795e1024f9ee34048830cbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Down.png using Guid(4fb5e0e2795e1024f9ee34048830cbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d31166d3718a340e7b07ec164e8fea3') in 0.024020 seconds 
-  Import took 0.030312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.220179 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Dollar.png
-  artifactKey: Guid(e1b204e9b9b6ab54c9f297831c5decd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Dollar.png using Guid(e1b204e9b9b6ab54c9f297831c5decd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9856ffa0beede24e64e5f8dc5db3af4c') in 0.021524 seconds 
-  Import took 0.028505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.069122 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Delete.png
-  artifactKey: Guid(86218cc55706d6545baae656cd82d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Delete.png using Guid(86218cc55706d6545baae656cd82d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5240256c254bc8af54f4774b32cfd775') in 0.020279 seconds 
-  Import took 0.026070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.223965 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/copy.png
-  artifactKey: Guid(7dba52f41bf4bfe4da19d66fbd8f52db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/copy.png using Guid(7dba52f41bf4bfe4da19d66fbd8f52db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf1848f10eff3f10c2098b73af69485') in 0.020034 seconds 
-  Import took 0.026268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075344 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/continue.png
-  artifactKey: Guid(8dabcc3a7e39d72419f56ee538fe0b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/continue.png using Guid(8dabcc3a7e39d72419f56ee538fe0b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348b82685346720b50d7c77fc8a47b37') in 0.019748 seconds 
-  Import took 0.026237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.222780 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/coins.png
-  artifactKey: Guid(1182f61c1fb351046b0f062ee936107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/coins.png using Guid(1182f61c1fb351046b0f062ee936107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345fc45b60f48076e0a20f5aa6d5d9a1') in 0.016410 seconds 
-  Import took 0.023569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.258528 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/close.png
-  artifactKey: Guid(75a72afb27431d8478b29955ef8cadc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/close.png using Guid(75a72afb27431d8478b29955ef8cadc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3bbe54dfa04caa5f556456c8a7036e') in 0.019016 seconds 
-  Import took 0.025424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.258042 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/chat.png
-  artifactKey: Guid(d90aec6789380a64d86cfbe018d7622a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/chat.png using Guid(d90aec6789380a64d86cfbe018d7622a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ee2f4445efd3005bc0e189ae69326b') in 0.019918 seconds 
-  Import took 0.025591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.241657 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/cart.png
-  artifactKey: Guid(bdaf5307f76158b46b335e7200be1606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/cart.png using Guid(bdaf5307f76158b46b335e7200be1606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9ee09ea579ce955ba8a1f33bd57f37') in 0.017026 seconds 
-  Import took 0.022538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.161030 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/camera.png
-  artifactKey: Guid(d338fb7c379eefb47a437868f36bcb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/camera.png using Guid(d338fb7c379eefb47a437868f36bcb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc93fc15eab4bef2a63cdc9d89ca0a34') in 0.017820 seconds 
-  Import took 0.023844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.159685 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/backward.png
-  artifactKey: Guid(6e249bbe6ff7d864888786cab8f51115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/backward.png using Guid(6e249bbe6ff7d864888786cab8f51115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7270dfce73cceb9a913f7dc626aa72') in 0.019275 seconds 
-  Import took 0.027007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.154375 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/back.png
-  artifactKey: Guid(0e945287053a58f4b8c8d9f9f0db03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/back.png using Guid(0e945287053a58f4b8c8d9f9f0db03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06efd111bdfa20ea29f63fad8b8a1cd5') in 0.017934 seconds 
-  Import took 0.023569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.163298 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Add-people.png
-  artifactKey: Guid(7d05ea9b0fdf92e408870c8083806fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Add-people.png using Guid(7d05ea9b0fdf92e408870c8083806fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3282a1d4c70e3ec8046658499da21eae') in 0.020345 seconds 
-  Import took 0.025724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.155191 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/Achive.png
-  artifactKey: Guid(2e20e2df32f174d4c99290761646282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/Achive.png using Guid(2e20e2df32f174d4c99290761646282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40f370114fa1958f53cd01a186174c3') in 0.022656 seconds 
-  Import took 0.029335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.069429 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/9.png
-  artifactKey: Guid(4f35745365041b7468b29664f5dae2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/9.png using Guid(4f35745365041b7468b29664f5dae2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a315dc8d930888a96258e01c22fbe39') in 0.025421 seconds 
-  Import took 0.034640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.215966 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/8.png
-  artifactKey: Guid(1ed50c5bba13c5b4aa6329ccb52ad0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/8.png using Guid(1ed50c5bba13c5b4aa6329ccb52ad0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57435fa381982d85b030727ac1f3c4c3') in 0.019625 seconds 
-  Import took 0.025717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074851 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/7.png
-  artifactKey: Guid(3beea26c3863d344a99cc001937219c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/7.png using Guid(3beea26c3863d344a99cc001937219c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c9830b1a5485b5608f62a2efe79ab6') in 0.024986 seconds 
-  Import took 0.031715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.217720 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/white icon/6.png
-  artifactKey: Guid(2eef2c2e090b8bc46ab4aa5b7202cd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/white icon/6.png using Guid(2eef2c2e090b8bc46ab4aa5b7202cd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6db33022fc88827cd3ae95f0933aa4') in 0.033952 seconds 
-  Import took 0.044293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.162395 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/gold 2
-  artifactKey: Guid(3f081b2f8dfe16342bb488b25c0e8b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/gold 2 using Guid(3f081b2f8dfe16342bb488b25c0e8b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdde4bda5669112ca49faa1825cc55b') in 0.007099 seconds 
-  Import took 0.014949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.513281 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/gold 2/CAMERA-1.png
-  artifactKey: Guid(d04890c1c9f7c87489ebba8a0b0d4857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/gold 2/CAMERA-1.png using Guid(d04890c1c9f7c87489ebba8a0b0d4857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f3de80e3d5dddbce21635f39b8d2cd') in 0.046043 seconds 
-  Import took 0.051393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.682835 seconds.
-  path: Assets/3rd Party Assets/Ui button pack 6/gold 2/DELETE1.png
-  artifactKey: Guid(e875cd5ad61c91347bac8a402d29d198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Ui button pack 6/gold 2/DELETE1.png using Guid(e875cd5ad61c91347bac8a402d29d198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839309d7bd328198aae6edeba3f507d8') in 0.029302 seconds 
-  Import took 0.034840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.045645 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui
-  artifactKey: Guid(5b2908b5c90607948b87796538f605e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui using Guid(5b2908b5c90607948b87796538f605e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fa035e661f2f6f3262e287b8a12238') in 0.014187 seconds 
-  Import took 0.022708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.736452 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/btn.png
-  artifactKey: Guid(a1bfb7d5ad464dd4e814207390aaf4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/btn.png using Guid(a1bfb7d5ad464dd4e814207390aaf4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa05067882ec63c02bfcd9340e60fafe') in 0.030547 seconds 
-  Import took 0.038321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.319030 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/icon.png
-  artifactKey: Guid(9e1bbf83c3f65a143a57d9726a38c4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/icon.png using Guid(9e1bbf83c3f65a143a57d9726a38c4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca55763217623facd16690d070edfb4b') in 0.031532 seconds 
-  Import took 0.038203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.409893 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/sell_ui_btn_icon_hairband.png
-  artifactKey: Guid(856a50590a9f1984c94eeb7678fd6cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/sell_ui_btn_icon_hairband.png using Guid(856a50590a9f1984c94eeb7678fd6cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44851580652ee6f096bba9b09bc424a') in 0.029396 seconds 
-  Import took 0.035333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.260472 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/btn_on.png
-  artifactKey: Guid(604b836ad4ffe6249924307ba0a60663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/btn_on.png using Guid(604b836ad4ffe6249924307ba0a60663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6288d65b77f605e0434f896c6b838881') in 0.028643 seconds 
-  Import took 0.034036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.081368 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon
-  artifactKey: Guid(9d4f5fe1bc08017409503e077cdcc610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon using Guid(9d4f5fe1bc08017409503e077cdcc610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c98580aaea7f279fce205d66530488') in 0.007401 seconds 
-  Import took 0.014000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.713376 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon/ingame_icon_balloon_boom.png
-  artifactKey: Guid(18dcda62d9d23cf44b9bbeb951dca54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon/ingame_icon_balloon_boom.png using Guid(18dcda62d9d23cf44b9bbeb951dca54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb025dc427089beba21d7054517c1af7') in 0.027258 seconds 
-  Import took 0.034116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.747082 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon/ingame_icon_balloon_blue.png
-  artifactKey: Guid(bd92f6728a4a6214f83f5f5919eeb4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon/ingame_icon_balloon_blue.png using Guid(bd92f6728a4a6214f83f5f5919eeb4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fa212d1690a54fff77598c934347e1') in 0.027525 seconds 
-  Import took 0.033462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.423361 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon/bg.png
-  artifactKey: Guid(c6a390f7bdc013b4e98ae925d56bc580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon/bg.png using Guid(c6a390f7bdc013b4e98ae925d56bc580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba855b90c9cba61ca030e69f853cfda0') in 0.026434 seconds 
-  Import took 0.032448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.450839 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon/ingame_icon_balloon_score.png
-  artifactKey: Guid(3eabdd727d20e8a45b4f426ffb698a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon/ingame_icon_balloon_score.png using Guid(3eabdd727d20e8a45b4f426ffb698a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f03164f341f61bae605a5bef94c8834') in 0.034013 seconds 
-  Import took 0.041589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.351404 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon/ingame_obj_tree_01.png
-  artifactKey: Guid(ccc27067a8044bc4a8db9da60045514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon/ingame_obj_tree_01.png using Guid(ccc27067a8044bc4a8db9da60045514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd684a700a694670307f26879e47f9e6d') in 0.034742 seconds 
-  Import took 0.040493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.351440 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon/ingame_obj_tree_04.png
-  artifactKey: Guid(838f13e453bf18645abcf57bb2301793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon/ingame_obj_tree_04.png using Guid(838f13e453bf18645abcf57bb2301793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbf22ef0fcf784ce3011e22c0715bfc') in 0.022551 seconds 
-  Import took 0.028141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.008400 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette
-  artifactKey: Guid(b3842badff4359942ad83fd256b40018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette using Guid(b3842badff4359942ad83fd256b40018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dd1e938bfcf72504f0c94364e2b0a3') in 0.009266 seconds 
-  Import took 0.015569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.679435 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01
-  artifactKey: Guid(7924c66c1545bf54dafea5ee6a4b4695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01 using Guid(7924c66c1545bf54dafea5ee6a4b4695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ef9c7aa3f669f238908f4cedfb032f') in 0.007744 seconds 
-  Import took 0.016189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.168972 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/bg.png
-  artifactKey: Guid(bafecdfc5e67d9f46a3c5b6e64ab2d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/bg.png using Guid(bafecdfc5e67d9f46a3c5b6e64ab2d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82766154ab5c0063c9ac3e1c54c46d13') in 0.036285 seconds 
-  Import took 0.043317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.337315 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/Gacha_bg_star_2.png
-  artifactKey: Guid(b31a52a71c77ba4408d74e6cfff367f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/Gacha_bg_star_2.png using Guid(b31a52a71c77ba4408d74e6cfff367f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dc607ad3bb0a6e8adb140aa6559cf9') in 0.035565 seconds 
-  Import took 0.042576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.433779 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/gacha_button_bg.png
-  artifactKey: Guid(bf5c2e5f3219089469172a59b4bf8e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/gacha_button_bg.png using Guid(bf5c2e5f3219089469172a59b4bf8e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d6567edd674fee57d1247050e2e29f') in 0.027027 seconds 
-  Import took 0.032349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.537615 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/Gacha_top_bg.png
-  artifactKey: Guid(636dddda9a5893e46b8ae77bb56e295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/Gacha_top_bg.png using Guid(636dddda9a5893e46b8ae77bb56e295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2577c139dd9c8e9c83df87e68f57e4f2') in 0.037517 seconds 
-  Import took 0.042957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.666058 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/Gacha_top_glass_bg.png
-  artifactKey: Guid(20c6783eca4255949838dbe9c9a8f193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/Gacha_top_glass_bg.png using Guid(20c6783eca4255949838dbe9c9a8f193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dcbce4560bb058639fe1e68ce55309') in 0.027006 seconds 
-  Import took 0.032936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.728024 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/main_top_icon.png
-  artifactKey: Guid(f912407bc3acc42409a81cfe953aa9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/main_top_icon.png using Guid(f912407bc3acc42409a81cfe953aa9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9179a1555cbb74bb6c89bb9f06f0c426') in 0.022582 seconds 
-  Import took 0.029388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.623921 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/shop_inventory_object_02.png
-  artifactKey: Guid(a1358eb7276b2ed46a830cb14edcba3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/shop_inventory_object_02.png using Guid(a1358eb7276b2ed46a830cb14edcba3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4a41f937f71727790dc37ea74d20c8') in 0.028646 seconds 
-  Import took 0.034101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.602164 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/ui_icon_play.png
-  artifactKey: Guid(d620ef6329234424c9373799d6b4937c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/ui_icon_play.png using Guid(d620ef6329234424c9373799d6b4937c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93473258885faa5b83bec71588ada4bf') in 0.024516 seconds 
-  Import took 0.029908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.682693 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG
-  artifactKey: Guid(588a08ee088962e4a921ff6245333de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG using Guid(588a08ee088962e4a921ff6245333de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc651eec1397dc354a408e9901b8a9c6') in 0.007769 seconds 
-  Import took 0.014459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.539141 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon/ingame_obj_hill_03.png
-  artifactKey: Guid(757bf804b29a8554aa19532f1c1739d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/04_07_minigame_balloon/ingame_obj_hill_03.png using Guid(757bf804b29a8554aa19532f1c1739d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604df6821af5c2845863435b798f9f80') in 0.022926 seconds 
-  Import took 0.028389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.463421 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/effect.png
-  artifactKey: Guid(6a020edbe72ba7e4d8225ce23d80040f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/effect.png using Guid(6a020edbe72ba7e4d8225ce23d80040f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5912c10be858319eedb0bb497d5904') in 0.028497 seconds 
-  Import took 0.033959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.445001 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/bar_02.png
-  artifactKey: Guid(ceab4beff7d735740979c61c28e51aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/bar_02.png using Guid(ceab4beff7d735740979c61c28e51aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db71b7c5705cd6f6a985606614db417') in 0.026150 seconds 
-  Import took 0.034913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.457154 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/bar_01.png
-  artifactKey: Guid(8f8d97e66cbd2f14c86037f8c2aaea22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/bar_01.png using Guid(8f8d97e66cbd2f14c86037f8c2aaea22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ba3c730b429565fd03d49312ab71c2') in 0.023896 seconds 
-  Import took 0.029654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.306870 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/ex_item.png
-  artifactKey: Guid(f069afd1e86743f4a91dec81c5beb680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/ex_item.png using Guid(f069afd1e86743f4a91dec81c5beb680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be97bdbaaf28be92b208bc7cab3d24b8') in 0.020962 seconds 
-  Import took 0.026285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.422301 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/sell_ui_btn_icon_all.png
-  artifactKey: Guid(e74119d7e2fe9b242b57e6fa4c017357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/02_08_main_sell_ui/sell_ui_btn_icon_all.png using Guid(e74119d7e2fe9b242b57e6fa4c017357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9aa49eeab729056373222cbee4b93c4') in 0.029406 seconds 
-  Import took 0.034755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.678632 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/02
-  artifactKey: Guid(eba8cdd001bdef243a2db5698ba74675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/02 using Guid(eba8cdd001bdef243a2db5698ba74675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad02c337accb4f8b65e45eb228f6374f') in 0.008108 seconds 
-  Import took 0.016140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.675748 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/02/shop_inventory_icon_02.png
-  artifactKey: Guid(a0dd545cb7a15ad48b181678149d8147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/02/shop_inventory_icon_02.png using Guid(a0dd545cb7a15ad48b181678149d8147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15d694ec6fdddbb48154f5193cb42c4') in 0.025899 seconds 
-  Import took 0.031977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.477257 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/02/roulette_page.png
-  artifactKey: Guid(3f5c695de80ccad4984738497607b0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/02/roulette_page.png using Guid(3f5c695de80ccad4984738497607b0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930f6f65a87e0646e1519046cbd10d0d') in 0.037073 seconds 
-  Import took 0.042182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.268690 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/bg-1.png
-  artifactKey: Guid(e53c366308e5ab245adebc1b7a5f7ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/bg-1.png using Guid(e53c366308e5ab245adebc1b7a5f7ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c410d2a1a77e0274c360604d61f231') in 0.025872 seconds 
-  Import took 0.032839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.573564 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/icon_gold.png
-  artifactKey: Guid(cf88c4cfc535ad349a15dc277ac1c6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/icon_gold.png using Guid(cf88c4cfc535ad349a15dc277ac1c6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feab71d43be7e4b4f5e01860b7bd9b55') in 0.026566 seconds 
-  Import took 0.031930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.805483 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/Gacha_bg.png
-  artifactKey: Guid(8cb939d75027c5045a631f79d8fa2501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/Gacha_bg.png using Guid(8cb939d75027c5045a631f79d8fa2501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97c7a5d44474ebd009793ab08feb29b') in 0.020044 seconds 
-  Import took 0.026001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.413253 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/close.png
-  artifactKey: Guid(1013008592ce6a74582948d1b9be6e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite/PNG/18_roulette/01/close.png using Guid(1013008592ce6a74582948d1b9be6e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d9eeef22527091b4fa5736da5430d6') in 0.048115 seconds 
-  Import took 0.053646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.315639 seconds.
-  path: Assets/3rd Party Assets/Cute-GUI-Pack-Lite
-  artifactKey: Guid(2c8a361438e26ff4a9b38d0edc931e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Cute-GUI-Pack-Lite using Guid(2c8a361438e26ff4a9b38d0edc931e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34d84d73ccb2f2cdad31604e8996c36') in 0.007923 seconds 
-  Import took 0.015640 seconds .
+  path: Assets/Scripts/Managers/GameManager.cs
+  artifactKey: Guid(9fad1927eece0934b80c29657529f31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/GameManager.cs using Guid(9fad1927eece0934b80c29657529f31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc4d7df101324d9db661367b93f8da6') in 0.019130 seconds 
+  Import took 0.022949 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003715 seconds.
+Registered in 0.004074 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.913 seconds
+- Completed reload, in  0.925 seconds
 Domain Reload Profiling:
-	ReloadAssembly (914ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (751ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (264ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3012 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.7 MB.
-System memory in use after: 134.9 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3631.
-Total: 3.003700 ms (FindLiveObjects: 0.256100 ms CreateObjectMapping: 0.142000 ms MarkObjects: 2.587000 ms  DeleteObjects: 0.017900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003683 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.920 seconds
-Domain Reload Profiling:
-	ReloadAssembly (920ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (925ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (775ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
+			SetupTypeCache (279ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (281ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (293ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3012 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.8 MB.
-System memory in use after: 135.0 MB.
+Unloading 3010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.6 MB.
+System memory in use after: 129.8 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3633.
-Total: 2.717700 ms (FindLiveObjects: 0.194400 ms CreateObjectMapping: 0.071200 ms MarkObjects: 2.434000 ms  DeleteObjects: 0.017500 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3576.
+Total: 4.044500 ms (FindLiveObjects: 0.496700 ms CreateObjectMapping: 0.201200 ms MarkObjects: 3.316700 ms  DeleteObjects: 0.028600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003348 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Domain Reload Profiling:
+	ReloadAssembly (867ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (733ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 129.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3578.
+Total: 2.719800 ms (FindLiveObjects: 0.265400 ms CreateObjectMapping: 0.110800 ms MarkObjects: 2.318900 ms  DeleteObjects: 0.023600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1498,233 +250,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 255.767861 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/Prefabs
-  artifactKey: Guid(6efbf95f7a6494cce910347e6da4650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/Prefabs using Guid(6efbf95f7a6494cce910347e6da4650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa61058737ef5c4497140dcdb721e561') in 0.010830 seconds 
-  Import took 0.015541 seconds .
+  Time since last request: 649.215054 seconds.
+  path: Assets/3rd Party Assets/Obstacle_Pack/Animation/Obs_06.controller
+  artifactKey: Guid(e5a988c8e725b47418b5beaa9ed5d7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/Obstacle_Pack/Animation/Obs_06.controller using Guid(e5a988c8e725b47418b5beaa9ed5d7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c1d69125b4fca7fac6a7d16fe844d7') in 0.040662 seconds 
+  Import took 0.045996 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 1.950925 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/Scripts
-  artifactKey: Guid(4ef5e874d03c74a52abc0f795af774da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/Scripts using Guid(4ef5e874d03c74a52abc0f795af774da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bf37bbadddf015811bbd2feb742f9e') in 0.008625 seconds 
-  Import took 0.017463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.638224 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/Prefabs/Slider (3).prefab
-  artifactKey: Guid(d59af3ac28fcf4659a909211f7356283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/Prefabs/Slider (3).prefab using Guid(d59af3ac28fcf4659a909211f7356283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421aeeefded6d7610d7d2de08f3a9fd6') in 0.061803 seconds 
-  Import took 0.067718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.824239 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/Prefabs/Slider (6).prefab
-  artifactKey: Guid(fb0d2e6e996204cf395b581fe483d3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/Prefabs/Slider (6).prefab using Guid(fb0d2e6e996204cf395b581fe483d3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8509cec9a07b611562dfaa953087a207') in 0.013623 seconds 
-  Import took 0.021426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.363783 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI
-  artifactKey: Guid(fcbf7a57e575944e8847f9ed5c5a5427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI using Guid(fcbf7a57e575944e8847f9ed5c5a5427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1384c46f6027b2e9e15cc78b640fbf63') in 0.009860 seconds 
-  Import took 0.018032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.802305 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 13.png
-  artifactKey: Guid(366ae973f8f1141efac97c6186c6bff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 13.png using Guid(366ae973f8f1141efac97c6186c6bff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdef06648d82b62939547bcc92e6a186') in 0.040263 seconds 
-  Import took 0.046477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.476035 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 16.png
-  artifactKey: Guid(bbe9a3f4ac90044af84ac836bcb9b802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 16.png using Guid(bbe9a3f4ac90044af84ac836bcb9b802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1d61939e4020c5819cb4371cb88f52') in 0.027258 seconds 
-  Import took 0.032931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.466366 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 18.png
-  artifactKey: Guid(47c23340812b24864af395feca4c3a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 18.png using Guid(47c23340812b24864af395feca4c3a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104556f304e5cebd2c35bdebf49b66bd') in 0.023659 seconds 
-  Import took 0.030654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.404829 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 22.png
-  artifactKey: Guid(11b5063e11cde4680a094a9bbca13383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 22.png using Guid(11b5063e11cde4680a094a9bbca13383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b7e089312a46bc524f5322e7f50a38') in 0.028292 seconds 
-  Import took 0.037927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.010963 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 20.png
-  artifactKey: Guid(9a7c20816c5ab45cc9d51d2c91e69fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 20.png using Guid(9a7c20816c5ab45cc9d51d2c91e69fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb406a1755d73eda2a2f59c268b28fd2') in 0.024816 seconds 
-  Import took 0.030062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.495287 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 19.png
-  artifactKey: Guid(621bab10a94aa402db2ed03ef602338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 19.png using Guid(621bab10a94aa402db2ed03ef602338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8d94ada232f51577a1ab2b7bca366a') in 0.027717 seconds 
-  Import took 0.033501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.992672 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 21.png
-  artifactKey: Guid(b0dfaa4151f07448e8a666cb8109f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 21.png using Guid(b0dfaa4151f07448e8a666cb8109f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13060e0f6a7925aa39f2bdcf12c719d3') in 0.025395 seconds 
-  Import took 0.031130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.834655 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/Prefabs/Slider (2).prefab
-  artifactKey: Guid(768873d858e68487b84d01b85b954a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/Prefabs/Slider (2).prefab using Guid(768873d858e68487b84d01b85b954a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d2b11f47c8e3e6c8f78946b6cd465c') in 0.014088 seconds 
-  Import took 0.020559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.412658 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/Prefabs/Slider (1).prefab
-  artifactKey: Guid(6c1d13c0b823848b6b35f81c78cdd7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/Prefabs/Slider (1).prefab using Guid(6c1d13c0b823848b6b35f81c78cdd7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f989afe19b07d2064b526ea6d8382b') in 0.014054 seconds 
-  Import took 0.020481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.705140 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/Prefabs/Slider (4).prefab
-  artifactKey: Guid(44cff23b033cf48e39f9e8f14b8324d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/Prefabs/Slider (4).prefab using Guid(44cff23b033cf48e39f9e8f14b8324d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc47433e11aef78e3f73c630af1b030') in 0.017128 seconds 
-  Import took 0.025847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 409.608164 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 14.png
-  artifactKey: Guid(bd822fe2366ff4c479740a6ea6329a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 14.png using Guid(bd822fe2366ff4c479740a6ea6329a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ae8a4ef710fa44a9e2593d76d8fde8') in 0.036111 seconds 
-  Import took 0.042606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.822956 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 17.png
-  artifactKey: Guid(5f8d6c803befb44bc89c118436018629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 17.png using Guid(5f8d6c803befb44bc89c118436018629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb263eb3a50d38446d1578deda5b43d') in 0.014703 seconds 
-  Import took 0.019129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.801871 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 15.png
-  artifactKey: Guid(c1d124fb86fcc4ab68a16d67cf980633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 15.png using Guid(c1d124fb86fcc4ab68a16d67cf980633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425aac27d9af4b1ad699eb90a0730ef0') in 0.012640 seconds 
-  Import took 0.017199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.514281 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 12.png
-  artifactKey: Guid(269491d773faa4b78aa9c1d4c6a1a897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 12.png using Guid(269491d773faa4b78aa9c1d4c6a1a897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b0932f66a82077380d1955278ad60f') in 0.017970 seconds 
-  Import took 0.022474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.534944 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 25.png
-  artifactKey: Guid(4eb181a1475ba4975a040865b40948c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 25.png using Guid(4eb181a1475ba4975a040865b40948c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf50766409f1d6726794781b011944e0') in 0.013307 seconds 
-  Import took 0.019272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.415079 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 24.png
-  artifactKey: Guid(10725fadd69e24802bd736ccc64a1f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 24.png using Guid(10725fadd69e24802bd736ccc64a1f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fae9574a140a13b39e52bbae16896d') in 0.015049 seconds 
-  Import took 0.019886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.792327 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 23.png
-  artifactKey: Guid(b47fd4db63bf94c06b15f3f388675144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 23.png using Guid(b47fd4db63bf94c06b15f3f388675144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f84a884a533e27fc4ef0a7383f50348') in 0.025362 seconds 
-  Import took 0.031207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.941900 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 26.png
-  artifactKey: Guid(9ccc3770b652045d28b4e270fe7f1063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 26.png using Guid(9ccc3770b652045d28b4e270fe7f1063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da0a6d1e8000828f3c0be51e04ba1c7') in 0.028150 seconds 
-  Import took 0.032691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.144923 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 27.png
-  artifactKey: Guid(1ba37af43c4904ef19390e750cd57dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 27.png using Guid(1ba37af43c4904ef19390e750cd57dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d56621735774a6016842c426042508') in 0.013192 seconds 
-  Import took 0.017425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.159391 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 28.png
-  artifactKey: Guid(d805bfdd935b34ca282b122c888030d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 28.png using Guid(d805bfdd935b34ca282b122c888030d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c54b619daede8e46aef854ca720b42') in 0.021100 seconds 
-  Import took 0.025429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.107786 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 29.png
-  artifactKey: Guid(07221909247fa4eb09dcc45e6316a8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 29.png using Guid(07221909247fa4eb09dcc45e6316a8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7ede72481514c559cdda91588bac4f') in 0.012789 seconds 
-  Import took 0.017436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.184265 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 30.png
-  artifactKey: Guid(264504b4239034938bc38bf33b3bde94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 30.png using Guid(264504b4239034938bc38bf33b3bde94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c7d7cc1eb5733e7085a4877cc94c16') in 0.012916 seconds 
-  Import took 0.017188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.147491 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 31.png
-  artifactKey: Guid(ba339f00c0b6d4d8d9dd8f5304ea9eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 31.png using Guid(ba339f00c0b6d4d8d9dd8f5304ea9eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9a60cb0d1beca147dd7157dc109c23') in 0.014123 seconds 
-  Import took 0.018688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.153724 seconds.
-  path: Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 32.png
-  artifactKey: Guid(ed36bd247342749da865b1fab6cd2650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 32.png using Guid(ed36bd247342749da865b1fab6cd2650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9402af0a6bcdf4714154d8106b3bf6f9') in 0.014149 seconds 
-  Import took 0.020506 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

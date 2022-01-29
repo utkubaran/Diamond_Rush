@@ -37,7 +37,7 @@ public class InGamePanel : MonoBehaviour
 
     private void UpgradeCoinAmount()
     {
-        coinCount++;
+        coinCount = GameManager.instance.CurrentCoins;
         coinText.text = coinCount.ToString();
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    private int startStack, currentCoins;
+    private int startStack, currentCoins, currentDiamonds;
 
     public int StartStack { get { return startStack; } }
 
@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
         EventManager.OnSceneStart.AddListener(LoadPlayerDataFromJson);
         EventManager.OnStartStackUpgrade.AddListener(UpgradeStartStack);
         EventManager.OnLevelFinish.AddListener(SavePlayerDataToJson);
+        EventManager.OnCoinCollected.AddListener(UpdateCoinCount);
+        // EventManager.OnDiamondCollected.AddListener( () => collectedDiamonds++ );
     }
     
     private void OnDisable()
@@ -23,11 +25,14 @@ public class Player : MonoBehaviour
         EventManager.OnSceneStart.AddListener(LoadPlayerDataFromJson);
         EventManager.OnStartStackUpgrade.AddListener(UpgradeStartStack);
         EventManager.OnLevelFinish.AddListener(SavePlayerDataToJson);
+        EventManager.OnCoinCollected.RemoveListener(UpdateCoinCount);
+        // EventManager.OnDiamondCollected.RemoveListener( () => collectedDiamonds++ );
     }
 
-    private void Update()
+    private void UpdateCoinCount()
     {
-        Debug.Log(currentCoins);
+        currentCoins++;
+        GameManager.instance.CurrentCoins = currentCoins;
     }
 
     private void UpgradeStartStack()
@@ -35,10 +40,7 @@ public class Player : MonoBehaviour
         if (currentCoins < GameManager.instance.CoinCostToUpgrade) return;
 
         Debug.Log("works");
-        // EventManager.OnDiamondCollected?.Invoke();
         startStack++;
-        currentCoins = GameManager.instance.CurrentCoins;
-        // GameManager.instance.CurrentCoins = currentCoins;
     }
 
     private void SavePlayerDataToJson()

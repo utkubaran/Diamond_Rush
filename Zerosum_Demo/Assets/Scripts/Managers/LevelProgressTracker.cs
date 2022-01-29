@@ -8,23 +8,9 @@ public class LevelProgressTracker : MonoBehaviour
 
     private Transform finishLine, playerPos;
 
-    private int collectedDiamonds, collectedCoins;
-
     private float distanceToFinish;
 
     private bool isFinished;
-
-    private void OnEnable()
-    {
-        EventManager.OnCoinCollected.AddListener( () => collectedCoins++ );
-        EventManager.OnDiamondCollected.AddListener( () => collectedDiamonds++ );
-    }
-
-    private void OnDisable()
-    {
-        EventManager.OnCoinCollected.RemoveListener( () => collectedCoins++ );
-        EventManager.OnDiamondCollected.RemoveListener( () => collectedDiamonds++ );
-    }
 
     private void Awake()
     {
@@ -35,9 +21,6 @@ public class LevelProgressTracker : MonoBehaviour
     {
         finishLine = GameObject.FindGameObjectWithTag("Finish Line").transform;
         playerPos = GameObject.FindGameObjectWithTag("Player").transform;
-        // collectedDiamonds = DataManager.instace.playerData.currentDiamonds;
-        collectedDiamonds = 0;
-        collectedCoins = 0;
         isFinished = false;
     }
 

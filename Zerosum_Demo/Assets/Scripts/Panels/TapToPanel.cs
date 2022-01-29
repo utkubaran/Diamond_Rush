@@ -10,7 +10,7 @@ public class TapToPanel : MonoBehaviour
     private TextMeshProUGUI levelText;
 
     [SerializeField]
-    private TextMeshProUGUI diamondCountText;
+    private TextMeshProUGUI coinCountText;
 
     [SerializeField]
     private TextMeshProUGUI upgradeButtonText;
@@ -19,25 +19,25 @@ public class TapToPanel : MonoBehaviour
 
     private void OnEnable()
     {
-        EventManager.OnStartStackUpgrade.AddListener(UpdateDiamondCountText);
+        EventManager.OnStartStackUpgrade.AddListener(UpgradeCoinCountText);
     }
 
     private void OnDisable()
     {
-        EventManager.OnStartStackUpgrade.RemoveListener(UpdateDiamondCountText);
+        EventManager.OnStartStackUpgrade.RemoveListener(UpgradeCoinCountText);
     }
 
     void Start()
     {
         currentSceneIndex = LevelManager.instance.CurrentSceneIndex;
-        diamondCountText.text = GameManager.instance.CurrentCoins.ToString();
+        coinCountText.text = GameManager.instance.CurrentCoins.ToString();
         upgradeButtonText.text = "Upgrade: " + GameManager.instance.CoinCostToUpgrade.ToString();
         levelText.text = "LEVEL " + currentSceneIndex;
     }
 
-    private void UpdateDiamondCountText()
+    private void UpgradeCoinCountText()
     {
-        diamondCountText.text = GameManager.instance.CurrentCoins.ToString();
+        coinCountText.text = GameManager.instance.CurrentCoins.ToString();
         upgradeButtonText.text = "Upgrade: " + GameManager.instance.CoinCostToUpgrade.ToString();
     }
 

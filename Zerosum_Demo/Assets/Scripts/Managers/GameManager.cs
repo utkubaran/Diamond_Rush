@@ -37,8 +37,15 @@ public class GameManager : MonoBehaviour
         instance = this;
     }
 
+    private void Update()
+    {
+        Debug.Log(currentCoins);
+    }
+
     private void UpdateDiamondCount()
     {
+        if (currentCoins < coinCostToUpgrade) return;
+        
         currentCoins -= coinCostToUpgrade;
         coinCostToUpgrade *= 2;
     }
