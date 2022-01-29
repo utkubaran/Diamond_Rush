@@ -138,4 +138,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4de10d0e3d7a0246880b9056fcb639a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinSize: 1.5
+  coinSize: 1.15

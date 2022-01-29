@@ -7,6 +7,9 @@ public class PlayerStackController : MonoBehaviour
     [SerializeField]
     private ObjectPooler objectPooler;
 
+    [SerializeField]
+    private int maxStackLimit = 20;
+
     private Player player;
 
     private PlayerAnimationController animationController;
@@ -15,7 +18,6 @@ public class PlayerStackController : MonoBehaviour
 
     private int startStack;
 
-    private int maxStackLimit = 20;
     public int MaxStackLimit { get { return maxStackLimit; } }
 
     private int stackAmount;
@@ -28,12 +30,14 @@ public class PlayerStackController : MonoBehaviour
     {
         EventManager.OnDiamondCollected.AddListener(IncreaseStack);
         EventManager.OnHitObstacle.AddListener(DecreaseStack);
+        EventManager.OnStartStackUpgrade.AddListener(UpgradeStartStack);
     }
 
     private void OnDisable()
     {
         EventManager.OnDiamondCollected.RemoveListener(IncreaseStack);
         EventManager.OnHitObstacle.RemoveListener(DecreaseStack);
+        EventManager.OnStartStackUpgrade.RemoveListener(UpgradeStartStack);
     }
 
     private void Awake()
@@ -47,7 +51,11 @@ public class PlayerStackController : MonoBehaviour
         stacks = new List<GameObject>();
         stackAmount = player.StartStack;
         stackPerct = (float)stackAmount / (float)maxStackLimit;
+    }
 
+    private void UpgradeStartStack()
+    {
+        stackAmount = player.StartStack;
         for (int i = 0; i < stackAmount; i++)
         {
             IncreaseStack();

@@ -25,6 +25,7 @@ public class UIManager : MonoBehaviour
         EventManager.OnLevelStart.AddListener( () => levelEndPanel.SetActive(false) );
 
         EventManager.OnSceneFinish.AddListener( () => inGamePanel.SetActive(false) );
+        EventManager.OnLevelFinish.AddListener( () => inGamePanel.SetActive(false) );
         EventManager.OnLevelFinish.AddListener( () => levelEndPanel.SetActive(true) );
     }
 
@@ -39,6 +40,7 @@ public class UIManager : MonoBehaviour
         EventManager.OnLevelStart.RemoveListener( () => levelEndPanel.SetActive(false) );
 
         EventManager.OnSceneFinish.RemoveListener( () => inGamePanel.SetActive(false) );
+        EventManager.OnLevelFinish.RemoveListener( () => inGamePanel.SetActive(false) );
         EventManager.OnLevelFinish.RemoveListener( () => levelEndPanel.SetActive(true) );
     }
 }
