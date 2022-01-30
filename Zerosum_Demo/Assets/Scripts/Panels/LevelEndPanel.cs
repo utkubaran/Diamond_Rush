@@ -11,21 +11,9 @@ public class LevelEndPanel : MonoBehaviour
 
     private int collectedDiamonds;
 
-    private void OnEnable()
-    {
-        EventManager.OnDiamondCollected.AddListener( () => collectedDiamonds++ );
-        EventManager.OnSceneFinish.AddListener( () => collectedDiamondText.text = collectedDiamonds.ToString() );
-    }
-
-    private void OnDisable()
-    {
-        EventManager.OnDiamondCollected.RemoveListener( () => collectedDiamonds++ );
-        EventManager.OnSceneFinish.RemoveListener( () => collectedDiamondText.text = collectedDiamonds.ToString() );
-    }
-
     void Start()
     {
-        collectedDiamonds = 0;
+        collectedDiamondText.text = "Collected Diamonds: " + GameManager.instance.CollectedDiamonds.ToString();
     }
 
     public void NextLevelButton()

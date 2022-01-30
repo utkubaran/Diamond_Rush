@@ -12,9 +12,13 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private int coinCostToUpgrade;
 
+    private int collectedDiamonds;
+
     public int StartStack { get { return startStack; } }
 
     public int CoinCostToUpgrade { get { return coinCostToUpgrade; } }
+
+    public int CollectedDiamonds { get { return collectedDiamonds; } }
 
     [SerializeField]
     private int currentCoins;
@@ -22,11 +26,13 @@ public class GameManager : MonoBehaviour
 
     private void OnEnable()
     {
+        EventManager.OnDiamondCollected.AddListener( () => collectedDiamonds++ );
         EventManager.OnStartStackUpgrade.AddListener(UpdateDiamondCount);
     }
 
     private void OnDisable()
     {
+        EventManager.OnDiamondCollected.RemoveListener( () => collectedDiamonds++ );
         EventManager.OnStartStackUpgrade.RemoveListener(UpdateDiamondCount);
     }
 
@@ -39,6 +45,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        collectedDiamonds = 0;
         Debug.Log(Application.persistentDataPath);
     }
 
