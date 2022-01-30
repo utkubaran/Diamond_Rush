@@ -85,6 +85,8 @@ public class PlayerStackController : MonoBehaviour
 
     private void HideStack()
     {
+        if (stacks.Count <= 0) return;
+        
         foreach (var diamond in stacks)
         {
             diamond.SetActive(false);

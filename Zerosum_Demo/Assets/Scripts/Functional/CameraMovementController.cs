@@ -25,7 +25,7 @@ public class CameraMovementController : MonoBehaviour
 
     private void MoveCameraToEndScene()
     {
-        Vector3 endSceneCamOffset = new Vector3(0f, 2.5f, -14f);
+        Vector3 endSceneCamOffset = new Vector3(0f, 2.5f, -15f);
         DOTween.To( () => vCam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset, x => vCam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = x, endSceneCamOffset, 2.5f);
     }
 }
