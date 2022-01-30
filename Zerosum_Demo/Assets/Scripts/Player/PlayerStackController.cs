@@ -30,14 +30,12 @@ public class PlayerStackController : MonoBehaviour
     {
         EventManager.OnDiamondCollected.AddListener(IncreaseStack);
         EventManager.OnHitObstacle.AddListener(DecreaseStack);
-        EventManager.OnStartStackUpgrade.AddListener(UpgradeStartStack);
     }
 
     private void OnDisable()
     {
         EventManager.OnDiamondCollected.RemoveListener(IncreaseStack);
         EventManager.OnHitObstacle.RemoveListener(DecreaseStack);
-        EventManager.OnStartStackUpgrade.RemoveListener(UpgradeStartStack);
     }
 
     private void Awake()
@@ -53,16 +51,7 @@ public class PlayerStackController : MonoBehaviour
         stackPerct = (float)stackAmount / (float)maxStackLimit;
     }
 
-    private void UpgradeStartStack()
-    {
-        stackAmount = player.StartStack;
-        for (int i = 0; i < stackAmount; i++)
-        {
-            IncreaseStack();
-        }
-    }
-
-    private void IncreaseStack()
+    public void IncreaseStack()
     {
         if (stackAmount >= maxStackLimit) return;
 

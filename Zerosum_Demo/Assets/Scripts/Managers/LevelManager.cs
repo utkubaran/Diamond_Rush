@@ -25,6 +25,7 @@ public class LevelManager : MonoBehaviour
     {
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         instance = this;
+        EventManager.OnSceneStart?.Invoke();
     }
 
     private void Start()

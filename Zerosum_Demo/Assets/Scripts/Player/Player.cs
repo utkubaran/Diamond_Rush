@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    private int startStack, currentCoins, currentDiamonds;
+    private PlayerStackController playerStackController;
+
+    private int startStack, currentCoins;
 
     public int StartStack { get { return startStack; } }
 
@@ -17,7 +19,6 @@ public class Player : MonoBehaviour
         EventManager.OnStartStackUpgrade.AddListener(UpgradeStartStack);
         EventManager.OnLevelFinish.AddListener(SavePlayerDataToJson);
         EventManager.OnCoinCollected.AddListener(UpdateCoinCount);
-        // EventManager.OnDiamondCollected.AddListener( () => collectedDiamonds++ );
     }
     
     private void OnDisable()
@@ -26,7 +27,12 @@ public class Player : MonoBehaviour
         EventManager.OnStartStackUpgrade.AddListener(UpgradeStartStack);
         EventManager.OnLevelFinish.AddListener(SavePlayerDataToJson);
         EventManager.OnCoinCollected.RemoveListener(UpdateCoinCount);
-        // EventManager.OnDiamondCollected.RemoveListener( () => collectedDiamonds++ );
+    }
+
+    private void Start()
+    {
+        playerStackController = GetComponent<PlayerStackController>();
+        currentCoins =  GameManager.instance.CurrentCoins;
     }
 
     private void UpdateCoinCount()
@@ -37,9 +43,11 @@ public class Player : MonoBehaviour
 
     private void UpgradeStartStack()
     {
+        currentCoins =  GameManager.instance.CurrentCoins;
+
         if (currentCoins < GameManager.instance.CoinCostToUpgrade) return;
 
-        Debug.Log("works");
+        playerStackController.IncreaseStack();
         startStack++;
     }
 

@@ -20,11 +20,13 @@ public class TapToPanel : MonoBehaviour
     private void OnEnable()
     {
         EventManager.OnStartStackUpgrade.AddListener(UpgradeCoinCountText);
+        EventManager.OnSceneStart.AddListener(UpgradeCoinCountText);
     }
 
     private void OnDisable()
     {
         EventManager.OnStartStackUpgrade.RemoveListener(UpgradeCoinCountText);
+        EventManager.OnSceneStart.RemoveListener(UpgradeCoinCountText);
     }
 
     void Start()

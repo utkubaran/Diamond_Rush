@@ -20,11 +20,13 @@ public class InGamePanel : MonoBehaviour
     private void OnEnable()
     {
         EventManager.OnCoinCollected.AddListener(UpgradeCoinAmount);
+        // EventManager.OnSceneStart.AddListener(UpgradeCoinAmount);
     }
 
     private void OnDisble()
     {
         EventManager.OnCoinCollected.RemoveListener(UpgradeCoinAmount);
+        // EventManager.OnSceneStart.RemoveListener(UpgradeCoinAmount);
     }
 
     void Start()
