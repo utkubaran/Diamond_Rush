@@ -142,8 +142,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 366ae973f8f1141efac97c6186c6bff4, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 9145193079258483556, guid: 4073cf14f29cc394ab02377660f9cb90, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -616,7 +616,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: COLLECTED DIAMONDS 10
+  m_text: COLLECTED DIAMONDS 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1280185301e3a85478c6cf809f5a2234, type: 2}
   m_sharedMaterial: {fileID: 7228687901176727739, guid: 1280185301e3a85478c6cf809f5a2234, type: 2}
@@ -703,7 +703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7538977529222491425
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1370,7 +1370,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7538977529739791573
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1446,7 +1446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelText: {fileID: 7538977529816849520}
-  diamondCountText: {fileID: 7538977530496439175}
+  coinCountText: {fileID: 7538977530496439175}
   upgradeButtonText: {fileID: 7538977530560216474}
 --- !u!1 &7538977529816849522
 GameObject:
@@ -1522,8 +1522,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279288575
-  m_fontColor: {r: 1, g: 0.7607844, b: 0.0627451, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1649,8 +1649,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 366ae973f8f1141efac97c6186c6bff4, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 9145193079258483556, guid: 4073cf14f29cc394ab02377660f9cb90, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1992,7 +1992,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bb29903063ffc48b3a4009e538e13d05, type: 3}
+  m_Sprite: {fileID: 9145193079258483556, guid: 4073cf14f29cc394ab02377660f9cb90, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2230,7 +2230,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 275, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7538977530560216475
 CanvasRenderer:
@@ -2260,7 +2260,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: UPGRADE
+  m_text: 'UPGRADE START STACK FOR: 10'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1280185301e3a85478c6cf809f5a2234, type: 2}
   m_sharedMaterial: {fileID: 7228687901176727739, guid: 1280185301e3a85478c6cf809f5a2234, type: 2}
@@ -2287,8 +2287,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 184015289720282255}
   - component: {fileID: 62126211}
   m_Layer: 0
-  m_Name: Diamond (1)
+  m_Name: Diamond
   m_TagString: Diamond
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6478536213147159724, guid: 19e561f87fd094241b550cc3e6cc1f7c, type: 3}
+  - {fileID: 2100000, guid: e1bca8343e082c140b39196196a04690, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

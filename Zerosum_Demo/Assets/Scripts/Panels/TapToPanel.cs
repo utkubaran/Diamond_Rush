@@ -31,14 +31,14 @@ public class TapToPanel : MonoBehaviour
     {
         currentSceneIndex = LevelManager.instance.CurrentSceneIndex;
         coinCountText.text = GameManager.instance.CurrentCoins.ToString();
-        upgradeButtonText.text = "Upgrade: " + GameManager.instance.CoinCostToUpgrade.ToString();
+        upgradeButtonText.text = "Upgrade Start Stack for: " + GameManager.instance.CoinCostToUpgrade.ToString();
         levelText.text = "LEVEL " + currentSceneIndex;
     }
 
     private void UpgradeCoinCountText()
     {
         coinCountText.text = GameManager.instance.CurrentCoins.ToString();
-        upgradeButtonText.text = "Upgrade: " + GameManager.instance.CoinCostToUpgrade.ToString();
+        upgradeButtonText.text = "Upgrade Start Stack for: " + GameManager.instance.CoinCostToUpgrade.ToString();
     }
 
     public void TapToPlayButton()

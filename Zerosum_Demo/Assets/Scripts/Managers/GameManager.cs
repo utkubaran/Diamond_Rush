@@ -37,9 +37,9 @@ public class GameManager : MonoBehaviour
         instance = this;
     }
 
-    private void Update()
+    private void Start()
     {
-        Debug.Log(currentCoins);
+        Debug.Log(Application.persistentDataPath);
     }
 
     private void UpdateDiamondCount()
