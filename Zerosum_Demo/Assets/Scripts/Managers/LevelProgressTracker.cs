@@ -4,18 +4,11 @@ using UnityEngine;
 
 public class LevelProgressTracker : MonoBehaviour
 {
-    public static LevelProgressTracker instance;
-
     private Transform finishLine, playerPos;
 
     private float distanceToFinish;
 
     private bool isFinished;
-
-    private void Awake()
-    {
-        instance = this;
-    }
 
     void Start()
     {
@@ -25,6 +18,11 @@ public class LevelProgressTracker : MonoBehaviour
     }
 
     private void Update()
+    {
+        CheckDistance();
+    }
+
+    private void CheckDistance()
     {
         distanceToFinish = Mathf.Abs(Vector3.Distance(finishLine.position, playerPos.position));
 

@@ -12,15 +12,13 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private int coinCostToUpgrade;
 
-    private int collectedDiamonds;
-
     public int StartStack { get { return startStack; } set { startStack = value; } }
 
     public int CoinCostToUpgrade { get { return coinCostToUpgrade; } set { coinCostToUpgrade = value; } }
 
+    private int collectedDiamonds;
     public int CollectedDiamonds { get { return collectedDiamonds; } }
 
-    [SerializeField]
     private int currentCoins;
     public int CurrentCoins { get { return currentCoins; } set { currentCoins = value; } }
 

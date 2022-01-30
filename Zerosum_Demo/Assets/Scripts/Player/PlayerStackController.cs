@@ -16,8 +16,6 @@ public class PlayerStackController : MonoBehaviour
 
     private List<GameObject> stacks;
 
-    private int startStack;
-
     public int MaxStackLimit { get { return maxStackLimit; } }
 
     private int stackAmount;

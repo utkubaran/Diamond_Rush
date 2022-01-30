@@ -9,7 +9,7 @@ public class CollectableRotationController : MonoBehaviour
 
     private Transform _transform;
 
-    void Start()
+    void Awake()
     {
         _transform = transform;
     }

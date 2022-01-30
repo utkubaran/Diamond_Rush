@@ -29,11 +29,5 @@ public static class EventManager
     #region Upgrade Events
     public static UnityEvent OnStartStackUpgrade = new UnityEvent();
     #endregion
-
-    #region Save&Load Events
-    public static SaveLoadEvent OnBroadcast = new SaveLoadEvent();
-    #endregion
 }
-
-public class SaveLoadEvent : UnityEvent<int, int, int> { }
 

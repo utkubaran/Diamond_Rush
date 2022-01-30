@@ -35,6 +35,11 @@ public class PlayerAnimationController : MonoBehaviour
 
     void Update()
     {
+        SetBlendValue();
+    }
+
+    private void SetBlendValue()
+    {
         if (isPlaying)
         {
             animator.SetFloat("Blend", blendValue);

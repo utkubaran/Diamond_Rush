@@ -13,8 +13,6 @@ public class Player : MonoBehaviour
 
     public int StartStack { get { return startStack; } }
 
-    public int CurrentCoins { get { return currentCoins; } }
-
     private void OnEnable()
     {
         EventManager.OnSceneStart.AddListener(LoadPlayerDataFromJson);

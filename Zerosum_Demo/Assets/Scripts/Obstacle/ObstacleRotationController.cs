@@ -9,7 +9,7 @@ public class ObstacleRotationController : MonoBehaviour
 
     private Transform _transform;
 
-    void Start()
+    void Awake()
     {
         _transform = transform;
     }
