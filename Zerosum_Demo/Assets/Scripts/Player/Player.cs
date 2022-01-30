@@ -25,9 +25,9 @@ public class Player : MonoBehaviour
     
     private void OnDisable()
     {
-        EventManager.OnSceneStart.AddListener(LoadPlayerDataFromJson);
-        EventManager.OnStartStackUpgrade.AddListener(UpgradeStartStack);
-        EventManager.OnLevelFinish.AddListener(SavePlayerDataToJson);
+        EventManager.OnSceneStart.RemoveListener(LoadPlayerDataFromJson);
+        EventManager.OnStartStackUpgrade.RemoveListener(UpgradeStartStack);
+        EventManager.OnLevelFinish.RemoveListener(SavePlayerDataToJson);
         EventManager.OnCoinCollected.RemoveListener(UpdateCoinCount);
     }
 

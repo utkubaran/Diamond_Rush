@@ -7,6 +7,9 @@ using TMPro;
 public class PlayerUIController : MonoBehaviour
 {
     [SerializeField]
+    private GameObject playerUI;
+
+    [SerializeField]
     private TextMeshProUGUI diamondText;
 
     [SerializeField]
@@ -18,18 +21,24 @@ public class PlayerUIController : MonoBehaviour
 
     private void OnEnable()
     {
+        EventManager.OnSceneStart.AddListener( () => playerUI.SetActive(false) );
+        EventManager.OnLevelStart.AddListener( () => playerUI.SetActive(true) );
         EventManager.OnDiamondCollected.AddListener(UpgradeDiamondCount);
         EventManager.OnHitObstacle.AddListener(DegreadeDiamondCount);
         EventManager.OnDiamondCollected.AddListener(IncreaseStackAmount);
         EventManager.OnHitObstacle.AddListener(DecreaseStackAmount);
+        EventManager.OnLevelFinish.AddListener( () => playerUI.SetActive(false) );
     }
 
     private void OnDisble()
     {
+        EventManager.OnSceneStart.RemoveListener( () => playerUI.SetActive(false) );
+        EventManager.OnLevelStart.RemoveListener( () => playerUI.SetActive(true) );
         EventManager.OnDiamondCollected.RemoveListener(UpgradeDiamondCount);
         EventManager.OnHitObstacle.RemoveListener(DegreadeDiamondCount);
         EventManager.OnDiamondCollected.RemoveListener(IncreaseStackAmount);
         EventManager.OnHitObstacle.RemoveListener(DecreaseStackAmount);
+        EventManager.OnLevelFinish.RemoveListener( () => playerUI.SetActive(false) );
     }
 
     private void Awake()

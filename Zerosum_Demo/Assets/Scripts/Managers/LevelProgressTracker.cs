@@ -30,7 +30,6 @@ public class LevelProgressTracker : MonoBehaviour
 
         if ((int)distanceToFinish == 0 && !isFinished)
         {
-            Debug.Log("level finished!");
             isFinished = true;
             distanceToFinish = 100;
             EventManager.OnLevelFinish?.Invoke();

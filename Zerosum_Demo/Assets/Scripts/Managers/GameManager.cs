@@ -52,7 +52,6 @@ public class GameManager : MonoBehaviour
     private void UpdateCoinCount()
     {
         if (currentCoins < coinCostToUpgrade) return;
-        Debug.Log(coinCostToUpgrade);
         
         currentCoins -= coinCostToUpgrade;
         coinCostToUpgrade *= 2;

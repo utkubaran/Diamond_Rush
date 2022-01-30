@@ -21976,6 +21976,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3047032741845096988, guid: 7164065f9bbc43d458747d75432ab55b, type: 3}
   m_PrefabInstance: {fileID: 1464660656}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1474111320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6986532874780487816, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
+  m_PrefabInstance: {fileID: 2109724328718143898}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1487777846
 GameObject:
   m_ObjectHideFlags: 0
@@ -22989,6 +22994,14 @@ PrefabInstance:
     - target: {fileID: 154927645, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 872750053, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
+      propertyPath: playerUI
+      value: 
+      objectReference: {fileID: 1474111320}
+    - target: {fileID: 872750053, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1262792166597143048, guid: 4f95b71a40bc14b478275a945aa99496, type: 3}
       propertyPath: poolParent
