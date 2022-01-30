@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
 {
     private PlayerStackController playerStackController;
 
+    private PlayerUIController playerUIController;
+
     private int startStack, currentCoins;
 
     public int StartStack { get { return startStack; } }
@@ -31,6 +33,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        playerUIController = GetComponent<PlayerUIController>();
         playerStackController = GetComponent<PlayerStackController>();
         currentCoins =  GameManager.instance.CurrentCoins;
     }
@@ -48,13 +51,16 @@ public class Player : MonoBehaviour
         if (currentCoins < GameManager.instance.CoinCostToUpgrade) return;
 
         playerStackController.IncreaseStack();
+        playerUIController.IncreaseStackAmount();
+        playerUIController.UpgradeDiamondCount();
         startStack++;
+        GameManager.instance.StartStack = startStack;
     }
 
     private void SavePlayerDataToJson()
     {
         PlayerData playerData =  new PlayerData();
-        playerData.startStack = startStack;
+        playerData.startStack = 0;
         playerData.currentCoins = currentCoins;
         playerData.lastLevelIndex = LevelManager.instance.CurrentSceneIndex + 1;
         playerData.coinCostToUpgrade = GameManager.instance.CoinCostToUpgrade;

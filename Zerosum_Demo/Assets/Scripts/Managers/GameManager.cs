@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
 
     private int collectedDiamonds;
 
-    public int StartStack { get { return startStack; } }
+    public int StartStack { get { return startStack; } set { startStack = value; } }
 
     public int CoinCostToUpgrade { get { return coinCostToUpgrade; } set { coinCostToUpgrade = value; } }
 
@@ -27,13 +27,13 @@ public class GameManager : MonoBehaviour
     private void OnEnable()
     {
         EventManager.OnDiamondCollected.AddListener( () => collectedDiamonds++ );
-        EventManager.OnStartStackUpgrade.AddListener(UpdateDiamondCount);
+        EventManager.OnStartStackUpgrade.AddListener(UpdateCoinCount);
     }
 
     private void OnDisable()
     {
         EventManager.OnDiamondCollected.RemoveListener( () => collectedDiamonds++ );
-        EventManager.OnStartStackUpgrade.RemoveListener(UpdateDiamondCount);
+        EventManager.OnStartStackUpgrade.RemoveListener(UpdateCoinCount);
     }
 
     private void Awake()
@@ -49,9 +49,10 @@ public class GameManager : MonoBehaviour
         Debug.Log(Application.persistentDataPath);
     }
 
-    private void UpdateDiamondCount()
+    private void UpdateCoinCount()
     {
         if (currentCoins < coinCostToUpgrade) return;
+        Debug.Log(coinCostToUpgrade);
         
         currentCoins -= coinCostToUpgrade;
         coinCostToUpgrade *= 2;

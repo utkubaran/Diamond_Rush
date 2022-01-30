@@ -41,6 +41,7 @@ public class LevelManager : MonoBehaviour
         PlayerData playerData = new PlayerData();
         playerData.currentCoins = 0;
         playerData.startStack = 0;
+        playerData.coinCostToUpgrade = GameManager.instance.CoinCostToUpgrade;
         playerData.lastLevelIndex = SceneManager.GetActiveScene().buildIndex + 1;
         
         DataManager.instace.Save(playerData);

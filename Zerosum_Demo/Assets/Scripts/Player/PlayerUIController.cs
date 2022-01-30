@@ -45,7 +45,7 @@ public class PlayerUIController : MonoBehaviour
         maxStackLimit = playerStackController.MaxStackLimit;
     }
     
-    private void UpgradeDiamondCount()
+    public void UpgradeDiamondCount()
     {
         if (diamondCount == maxStackLimit) return;
         
@@ -61,7 +61,7 @@ public class PlayerUIController : MonoBehaviour
         diamondText.text = diamondCount.ToString();
     }
 
-    private void IncreaseStackAmount()
+    public void IncreaseStackAmount()
     {
         stackBar.value = playerStackController.StackPerct;
     }

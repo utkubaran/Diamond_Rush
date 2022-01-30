@@ -15,6 +15,9 @@ public class TapToPanel : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI upgradeButtonText;
 
+    [SerializeField]
+    private TextMeshProUGUI startStackText;
+
     private int currentSceneIndex;
 
     private void OnEnable()
@@ -35,12 +38,15 @@ public class TapToPanel : MonoBehaviour
         coinCountText.text = GameManager.instance.CurrentCoins.ToString();
         upgradeButtonText.text = "Upgrade Start Stack for: " + GameManager.instance.CoinCostToUpgrade.ToString();
         levelText.text = "LEVEL " + currentSceneIndex;
+        startStackText.text = "Start Stack: " + GameManager.instance.StartStack.ToString();
+        Debug.Log(GameManager.instance.CoinCostToUpgrade);
     }
 
     private void UpgradeCoinCountText()
     {
         coinCountText.text = GameManager.instance.CurrentCoins.ToString();
         upgradeButtonText.text = "Upgrade Start Stack for: " + GameManager.instance.CoinCostToUpgrade.ToString();
+        startStackText.text = "Start Stack: " + GameManager.instance.StartStack.ToString();
     }
 
     public void TapToPlayButton()

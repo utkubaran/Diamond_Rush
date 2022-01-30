@@ -97,8 +97,8 @@
  *      -----Start stack represent the amount that our stack at start.
  *      -----Start stack start with 0 and increases by 1 with upgrade button on the tap to play screen. 
  *      -----Upgrade Button price increase exponentially on each purchase action.
- *      Start Stack amount must be remembered if game is closed and opened again.
- *      Upgrade Button price and level must be remembered if game is closed and opened again.
+ *      -----Start Stack amount must be remembered if game is closed and opened again.
+ *      -----Upgrade Button price and level must be remembered if game is closed and opened again.
  *
  * !!You can define collectable values and upgrade prices by yourself.
  * !!There will be no fail condition.

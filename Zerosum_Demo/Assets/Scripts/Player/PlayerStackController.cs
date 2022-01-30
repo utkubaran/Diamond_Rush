@@ -30,12 +30,14 @@ public class PlayerStackController : MonoBehaviour
     {
         EventManager.OnDiamondCollected.AddListener(IncreaseStack);
         EventManager.OnHitObstacle.AddListener(DecreaseStack);
+        EventManager.OnLevelFinish.AddListener(HideStack);
     }
 
     private void OnDisable()
     {
         EventManager.OnDiamondCollected.RemoveListener(IncreaseStack);
         EventManager.OnHitObstacle.RemoveListener(DecreaseStack);
+        EventManager.OnLevelFinish.AddListener(HideStack);
     }
 
     private void Awake()
@@ -61,7 +63,6 @@ public class PlayerStackController : MonoBehaviour
         {
             GameObject obj = objectPooler.GetPooledObject();
             stacks.Add(obj);
-            // obj.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + i * 1.5f);
             stackPerct = (float)stackAmount / (float)maxStackLimit;
             animationController.BlendValue = stackPerct;
         }
@@ -79,6 +80,14 @@ public class PlayerStackController : MonoBehaviour
             stacks.RemoveAt(i);
             stackPerct = (float)stackAmount / (float)maxStackLimit;
             animationController.BlendValue = stackPerct;
+        }
+    }
+
+    private void HideStack()
+    {
+        foreach (var diamond in stacks)
+        {
+            diamond.SetActive(false);
         }
     }
 }
