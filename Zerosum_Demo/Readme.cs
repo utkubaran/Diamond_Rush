@@ -24,8 +24,8 @@
  *      -----Game Title (You can choose your own)
  *      -----Tap To Play Button and Text
  *      -----Current Level Number
- *      -Currency Amount
- *      -Start Stack Upgrade Button & Price
+ *      -----Currency Amount
+ *      -----Start Stack Upgrade Button & Price
  *
  *      Start Stack Upgrade Button :
  *      This button will consume our currency and increase our starting stack.

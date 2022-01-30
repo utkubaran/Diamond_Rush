@@ -12048,6 +12048,7 @@ GameObject:
   - component: {fileID: 902461093}
   - component: {fileID: 902461092}
   - component: {fileID: 902461094}
+  - component: {fileID: 902461095}
   m_Layer: 0
   m_Name: Virtual Camera
   m_TagString: Untagged
@@ -12097,7 +12098,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902461091}
-  m_LocalRotation: {x: 0.16018224, y: -0.000000008492103, z: 0.0000000013780788, w: 0.9870875}
+  m_LocalRotation: {x: 0.16018224, y: 0.0000000084921, z: -0.0000000013780783, w: 0.9870875}
   m_LocalPosition: {x: 0, y: 10, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -12120,6 +12121,18 @@ MonoBehaviour:
   m_ChannelMask: 1
   m_Gain: 1
   m_Use2DDistance: 0
+--- !u!114 &902461095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902461091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4497a597e73fd84489631cfd6973c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &918165068 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7955773837082516680, guid: 3273dbe52b16209429dddb1c17717ca3, type: 3}
@@ -17217,7 +17230,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964645227}
-  m_LocalRotation: {x: 0.16018224, y: -0.000000008492103, z: 0.0000000013780788, w: 0.9870875}
+  m_LocalRotation: {x: 0.16018224, y: 0.0000000084921, z: -0.0000000013780783, w: 0.9870875}
   m_LocalPosition: {x: 0, y: 10, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []

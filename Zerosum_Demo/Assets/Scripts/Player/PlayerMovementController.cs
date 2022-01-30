@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class PlayerMovementController : MonoBehaviour
 {
@@ -30,12 +31,14 @@ public class PlayerMovementController : MonoBehaviour
     {
         EventManager.OnLevelStart.AddListener( () => isPlaying = true );
         EventManager.OnLevelFinish.AddListener( () => isPlaying = false );
+        EventManager.OnLevelFinish.AddListener(EndSceneMovement);
     }
 
     private void OnDisable()
     {
         EventManager.OnLevelStart.RemoveListener( () => isPlaying = true );
         EventManager.OnLevelFinish.RemoveListener( () => isPlaying = false );
+        EventManager.OnLevelFinish.RemoveListener(EndSceneMovement);
     }
 
     private void Awake()
@@ -63,5 +66,10 @@ public class PlayerMovementController : MonoBehaviour
 
         verticalPos = movementSpeed * Time.deltaTime + _transform.position.z;
         _transform.position = new Vector3(horizontalPos, _transform.position.y, verticalPos);
+    }
+
+    private void EndSceneMovement()
+    {
+        transform.DOMove(transform.position + Vector3.forward * 5f, 2.5f);
     }
 }

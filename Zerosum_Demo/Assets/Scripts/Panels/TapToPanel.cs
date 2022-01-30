@@ -39,7 +39,6 @@ public class TapToPanel : MonoBehaviour
         upgradeButtonText.text = "Upgrade Start Stack for: " + GameManager.instance.CoinCostToUpgrade.ToString();
         levelText.text = "LEVEL " + currentSceneIndex;
         startStackText.text = "Start Stack: " + GameManager.instance.StartStack.ToString();
-        Debug.Log(GameManager.instance.CoinCostToUpgrade);
     }
 
     private void UpgradeCoinCountText()
