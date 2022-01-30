@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 2077100588484377123}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 2763076030143450651}
   - {fileID: 6442654502432830820}
@@ -43,6 +43,8 @@ GameObject:
   - component: {fileID: 2763076030143450651}
   - component: {fileID: 1400848766399299888}
   - component: {fileID: 3493903138779484109}
+  - component: {fileID: 1425354283}
+  - component: {fileID: 1425354282}
   m_Layer: 0
   m_Name: Obs_09_Base
   m_TagString: Untagged
@@ -91,7 +93,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9b9914c3fc9cab74c8883d146e0fee4c, type: 2}
+  - {fileID: 2100000, guid: 091f4ad25ef0b034dbee350d6d85e6a6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -113,6 +115,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1425354283
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3545908204407612769}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8918729419144373207, guid: 34a4e744ec3c1a7419f2db33a69538e6, type: 3}
+--- !u!114 &1425354282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3545908204407612769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb6945fc88de3c43a78b817cca9b934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4917327374408817479
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +153,8 @@ GameObject:
   - component: {fileID: 438931070250747352}
   - component: {fileID: 9137319370462795773}
   - component: {fileID: 4917327374408817476}
+  - component: {fileID: 576024739}
+  - component: {fileID: 576024738}
   m_Layer: 0
   m_Name: Obs_09_Column
   m_TagString: Untagged
@@ -173,7 +203,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9b9914c3fc9cab74c8883d146e0fee4c, type: 2}
+  - {fileID: 2100000, guid: d808805cb406a484ca10b49c1dbbe57f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -209,3 +239,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotateSpeed: 300
   isRotating: 1
+--- !u!64 &576024739
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4917327374408817479}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2629029339588155269, guid: 34a4e744ec3c1a7419f2db33a69538e6, type: 3}
+--- !u!114 &576024738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4917327374408817479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb6945fc88de3c43a78b817cca9b934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
