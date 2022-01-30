@@ -94,9 +94,9 @@
  *      -----The amount will increase after collecting a currency collectable and, decreases after using upgrade button.
  *
  *  Start Stack Upgrade Button :
- *      Start stack represent the amount that our stack at start.
- *      Start stack start with 0 and increases by 1 with upgrade button on the tap to play screen. 
- *      Upgrade Button price increase exponentially on each purchase action.
+ *      -----Start stack represent the amount that our stack at start.
+ *      -----Start stack start with 0 and increases by 1 with upgrade button on the tap to play screen. 
+ *      -----Upgrade Button price increase exponentially on each purchase action.
  *      Start Stack amount must be remembered if game is closed and opened again.
  *      Upgrade Button price and level must be remembered if game is closed and opened again.
  *

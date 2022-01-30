@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
 
     public int StartStack { get { return startStack; } }
 
-    public int CoinCostToUpgrade { get { return coinCostToUpgrade; } }
+    public int CoinCostToUpgrade { get { return coinCostToUpgrade; } set { coinCostToUpgrade = value; } }
 
     public int CollectedDiamonds { get { return collectedDiamonds; } }
 

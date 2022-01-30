@@ -57,6 +57,7 @@ public class Player : MonoBehaviour
         playerData.startStack = startStack;
         playerData.currentCoins = currentCoins;
         playerData.lastLevelIndex = LevelManager.instance.CurrentSceneIndex + 1;
+        playerData.coinCostToUpgrade = GameManager.instance.CoinCostToUpgrade;
         DataManager.instace.Save(playerData);
     }
 
@@ -66,5 +67,6 @@ public class Player : MonoBehaviour
         startStack = playerData.startStack;
         currentCoins = playerData.currentCoins;
         GameManager.instance.CurrentCoins = currentCoins;
+        GameManager.instance.CoinCostToUpgrade = playerData.coinCostToUpgrade;
     }
 }

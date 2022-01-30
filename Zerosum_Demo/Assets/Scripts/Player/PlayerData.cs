@@ -10,4 +10,6 @@ public class PlayerData
     public int startStack;
 
     public int currentCoins;
+
+    public int coinCostToUpgrade;
 }
