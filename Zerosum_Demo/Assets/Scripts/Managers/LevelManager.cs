@@ -21,6 +21,7 @@ public class LevelManager : MonoBehaviour
         EventManager.OnTapToplayButtonPressed.RemoveListener(StartGameplay);
         EventManager.OnNextLevelButtonPressed.RemoveListener(LoadNextScene);
     }
+    
     private void Awake()
     {
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
