@@ -125,8 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8686e6ae48f609e49a6ee8cfb7dd72bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frequency: 1
-  magnitude: 7
+  frequency: 0.75
+  magnitude: 6
   offset: 0
 --- !u!1 &8532076829527332639
 GameObject:
