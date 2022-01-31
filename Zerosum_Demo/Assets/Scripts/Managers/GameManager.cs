@@ -16,21 +16,21 @@ public class GameManager : MonoBehaviour
 
     public int CoinCostToUpgrade { get { return coinCostToUpgrade; } set { coinCostToUpgrade = value; } }
 
-    private int collectedDiamonds;
-    public int CollectedDiamonds { get { return collectedDiamonds; } }
+    private int collectedCoins;
+    public int CollectedCoins { get { return collectedCoins; } }
 
     private int currentCoins;
     public int CurrentCoins { get { return currentCoins; } set { currentCoins = value; } }
 
     private void OnEnable()
     {
-        EventManager.OnDiamondCollected.AddListener( () => collectedDiamonds++ );
+        EventManager.OnCoinCollected.AddListener( () => collectedCoins++ );
         EventManager.OnStartStackUpgrade.AddListener(UpdateCoinCount);
     }
 
     private void OnDisable()
     {
-        EventManager.OnDiamondCollected.RemoveListener( () => collectedDiamonds++ );
+        EventManager.OnCoinCollected.RemoveListener( () => collectedCoins++ );
         EventManager.OnStartStackUpgrade.RemoveListener(UpdateCoinCount);
     }
 
@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        collectedDiamonds = 0;
+        collectedCoins = 0;
         Debug.Log(Application.persistentDataPath);
     }
 

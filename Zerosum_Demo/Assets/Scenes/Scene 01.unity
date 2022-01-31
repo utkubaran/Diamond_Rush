@@ -534,7 +534,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startStack: 0
   coinCostToUpgrade: 1
-  currentCoins: 0
 --- !u!1001 &135208243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23214,6 +23213,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7538977529000009518, guid: fcf6f5f2ef7120841a9e62c7962b55e3, type: 3}
+      propertyPath: m_Name
+      value: Collected Coins Text
+      objectReference: {fileID: 0}
     - target: {fileID: 7538977529222491428, guid: fcf6f5f2ef7120841a9e62c7962b55e3, type: 3}
       propertyPath: playerStackController
       value: 

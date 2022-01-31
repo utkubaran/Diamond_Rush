@@ -7,13 +7,13 @@ using TMPro;
 public class LevelEndPanel : MonoBehaviour
 {
     [SerializeField]
-    private TextMeshProUGUI collectedDiamondText;
+    private TextMeshProUGUI collectedCoinsText;
 
     private int collectedDiamonds;
 
     void Start()
     {
-        collectedDiamondText.text = "Collected Diamonds: " + GameManager.instance.CollectedDiamonds.ToString();
+        collectedCoinsText.text = "Collected Coins: " + GameManager.instance.CollectedCoins.ToString();
     }
 
     public void NextLevelButton()

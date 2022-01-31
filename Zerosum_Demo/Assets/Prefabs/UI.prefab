@@ -697,7 +697,7 @@ GameObject:
   - component: {fileID: 7538977529000009517}
   - component: {fileID: 7538977529000009516}
   m_Layer: 5
-  m_Name: Collected Diamonds Text
+  m_Name: Collected Coins Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1216,7 +1216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a1da6933d9719a4184f8184aacdec7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectedDiamondText: {fileID: 7538977529000009516}
+  collectedCoinsText: {fileID: 7538977529000009516}
 --- !u!1 &7538977529604085490
 GameObject:
   m_ObjectHideFlags: 0
