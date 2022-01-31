@@ -23213,18 +23213,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7538977529000009518, guid: fcf6f5f2ef7120841a9e62c7962b55e3, type: 3}
-      propertyPath: m_Name
-      value: Collected Coins Text
-      objectReference: {fileID: 0}
     - target: {fileID: 7538977529222491428, guid: fcf6f5f2ef7120841a9e62c7962b55e3, type: 3}
       propertyPath: playerStackController
       value: 
       objectReference: {fileID: 919132147746716561}
-    - target: {fileID: 7538977529535595398, guid: fcf6f5f2ef7120841a9e62c7962b55e3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7538977529604085490, guid: fcf6f5f2ef7120841a9e62c7962b55e3, type: 3}
       propertyPath: m_Name
       value: UI
@@ -23312,10 +23304,6 @@ PrefabInstance:
     - target: {fileID: 7538977529604085494, guid: fcf6f5f2ef7120841a9e62c7962b55e3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7538977529739791572, guid: fcf6f5f2ef7120841a9e62c7962b55e3, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcf6f5f2ef7120841a9e62c7962b55e3, type: 3}
