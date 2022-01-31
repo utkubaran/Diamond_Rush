@@ -24,12 +24,12 @@ public class LevelProgressTracker : MonoBehaviour
 
     private void CheckDistance()
     {
-        distanceToFinish = Mathf.Abs(Vector3.Distance(finishLine.position, playerPos.position));
+        distanceToFinish = finishLine.position.z - playerPos.position.z;
 
-        if ((int)distanceToFinish == 0 && !isFinished)
+        if ((int)distanceToFinish <= 0 && !isFinished)
         {
             isFinished = true;
-            distanceToFinish = 100;
+            distanceToFinish = 0;
             EventManager.OnLevelFinish?.Invoke();
         }
     }
